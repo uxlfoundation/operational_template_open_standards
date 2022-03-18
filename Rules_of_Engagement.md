@@ -1,12 +1,12 @@
 ## Scope
 The scope of this specification is to define the operations and processes of the `[Organization_Name]` `([Organization_Abbreviation])`.
 
-The [Organization_Name] (Organization Mission). 
+The `[Organization_Name]` (Organization Mission). 
 
 ## Terminology and Conventions
 
 ### Language
-The default language for writting [Organization_Abbreviation] documentation is the American English, English (United States).
+The default language for writting `[Organization_Abbreviation]` documentation is the American English, English (United States).
 
 ### Conventions
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
@@ -40,21 +40,21 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally, in [Organization_Abbreviation] Issues are tracked in Github.</td>
+	<td>An important topic or problem for debate or discussion. Normally, in <i>[Organization_Abbreviation]</i> Issues are tracked in Github.</td>
     </tr>	  
     <tr>
 	<td><strong>Maintainer</strong></td>
-	<td>[Organization_Abbreviation] member that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
-  A Maintainer is the person (or persons) *responsible for the direction or movement* of a [Organization_Name] Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
-  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the [Organization_Name], or written documentation that made [Organization_Abbreviation] more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</td>
+	<td><i>[Organization_Abbreviation]</i> member that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
+  A Maintainer is the person (or persons) *responsible for the direction or movement* of a <i>[Organization_Name]</i> Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
+  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the <i>[Organization_Name]</i>, or written documentation that made <i>[Organization_Abbreviation]</i> more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</td>
     </tr>
     <tr>
 	<td><strong>Member(s)</strong></td>
-	<td>A person that belongs to a company that has signed [Organization_Abbreviation] Membership Application and Charter(s) and have access to [Organization_Abbreviation] resources.</td>
+	<td>A person that belongs to a company that has signed <i>[Organization_Abbreviation]</i> Membership Application and Charter(s) and have access to <i>[Organization_Abbreviation]</i> resources.</td>
     </tr>	  
     <tr>
 	<td><strong>Membership Application</strong></td>
-	<td>A legal document that provides legal information about rights and obligations of being a member company of [Organization_Abbreviation].</td>
+	<td>A legal document that provides legal information about rights and obligations of being a member company of <i>[Organization_Abbreviation]</i>.</td>
     </tr>
     <tr>
 	<td><strong>Participant</strong></td>
@@ -62,7 +62,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Project Charter</strong></td>
-	<td>A legal document that describes the [Organization_Abbreviation] Project.</td>
+	<td>A legal document that describes the <i>[Organization_Abbreviation]</i> Project.</td>
     </tr>
     <tr>
 	<td><strong>Pull Request</strong></td>
@@ -90,7 +90,7 @@ Every term used in the document should be defined in this section.
     </tr>	  
     <tr>
 	<td><strong>Steering Committee</strong></td>
-	<td>A committee that decides on the priorities or order of business on [Organization_Abbreviation]. </td>
+	<td>A committee that decides on the priorities or order of business on <i>[Organization_Abbreviation]</i>. </td>
     </tr>
     <tr>
 	<td><strong>Working Group</strong></td>
@@ -111,7 +111,7 @@ Every term used in the document should be defined in this section.
   </tbody>
 </table>
 
-Kindly consult [[Organization_Abbreviation] Dictionary]() for more definitions used in this document.
+Kindly consult [`[Organization_Abbreviation]` Dictionary]() for more definitions used in this document.
 
 ### Abbreviations
 
@@ -131,8 +131,8 @@ Kindly consult [[Organization_Abbreviation] Dictionary]() for more definitions u
     <td>Working Group</td>
   </tr>
   <tr>
-    <td>[Organization_Abbreviation]</td>
-    <td>[Organization_Name]</td>
+    <td><i>[Organization_Abbreviation]</i></td>
+    <td><i>[Organization_Name]</i></td>
   </tr>	
   <tr>
     <td>PR</td>
@@ -176,21 +176,20 @@ Kindly consult [[Organization_Abbreviation] Dictionary]() for more definitions u
   </thead>
   <tbody>
    <tr>
-      <td><a href="https://lfenergy.org " target="_blank"><strong>Website</strong></a></td>
-      <td>Public website dedicated to [Organization_Abbreviation] Consortium content.</td>
+      <td><a href="" target="_blank"><strong>Website</strong></a></td>
+      <td>Public website dedicated to <i>[Organization_Abbreviation]</i> Consortium content.</td>
    </tr>
    <tr>
-      <td><a href="https://github.com/carbon-data-specification" target="_blank"><strong>GitHub</strong></a></td>
-      <td>[Organization_Abbreviation] GitHub repositories open to the public.</td>
+      <td><a href="" target="_blank"><strong>GitHub</strong></a></td>
+      <td><i>[Organization_Abbreviation]</i> GitHub repositories open to the public.</td>
    </tr>	  
    <tr>
       <td><a href="" target="_blank"><strong>Technical Publication</strong></a></td>
-      <td>Technical Specifications created by [Organization_Name].</td>
+      <td>Technical Specifications created by <i>[Organization_Name]</i>.</td>
    </tr>
    <tr>
-      <td><a href="https://www.lfenergy.org/join
-" target="_blank"><strong>Membership Enrolment</strong></a></td>
-      <td>Process steps to join [Organization_Abbreviation].</td>
+      <td><a href="" target="_blank"><strong>Membership Enrolment</strong></a></td>
+      <td>Process steps to join <i>[Organization_Abbreviation]</i>.</td>
    </tr>
    <tr>
       <td><strong>Meeting Calendar</strong></td>
@@ -198,15 +197,15 @@ Kindly consult [[Organization_Abbreviation] Dictionary]() for more definitions u
    </tr>
    <tr>
       <td><strong>Mailing List</strong></td>
-      <td> <a href="https://lists.lfenergy.org" target="_blank"><strong>Mailing List</strong></a></td>
+      <td> <a href="" target="_blank"><strong>Mailing List</strong></a></td>
    </tr>
    <tr>
       <td><strong>Wiki</strong></td>
-      <td> <a href="https://wiki.lfenergy.org " target="_blank"><strong>Wiki</strong></a></td>
+      <td> <a href="" target="_blank"><strong>Wiki</strong></a></td>
    </tr>
    <tr>
       <td><a href="" target="_blank"><strong>Members Onboarding</strong></a></td>
-      <td> Welcome to [Organization_Abbreviation].</td>
+      <td> Welcome to <i>[Organization_Abbreviation]</i>.</td>
    </tr>
    <tr>
       <td><a href=""><strong>Working Group Charters</strong></a></td>
@@ -214,7 +213,7 @@ Kindly consult [[Organization_Abbreviation] Dictionary]() for more definitions u
    </tr>
    <tr>
       <td><a href="" target="_blank"><strong>Rules of Engagement</strong></a></td>
-      <td>[Organization_Abbreviation] process and rules.</td>
+      <td><i>[Organization_Abbreviation]</i> process and rules.</td>
    </tr>
    <tr>
       <td><strong>CONTRIBUTING</strong></td>
@@ -233,14 +232,14 @@ See [Membership Benefits](#membership-benefits)
 
 ### Organization Structure
 
-![image](https://user-images.githubusercontent.com/3258579/148709731-a7b9e2fc-c26b-4fe1-b0a1-99860e7706a9.png)
+<img width="298" alt="image" src="https://user-images.githubusercontent.com/3258579/158926136-cf301d00-e072-4d38-91b3-c22f6584aa39.png">
 
 Note:
 > The technical Working Groups are open to all.
 >
-> The Strategy WG and the [Organization_Abbreviation] Steering Committee are open to LF Energy General and Strategic members.
+> The Strategy WG and the <i>[Organization_Abbreviation]</i> Steering Committee are open to LF Energy General and Strategic members.
 >
-> The [Organization_Abbreviation] Steering Committee approves by up or down vote the final specifications. 
+> The <i>[Organization_Abbreviation]</i> Steering Committee approves by up or down vote the final specifications. 
 >
 > - Ensures alignment between working groups.
 >
@@ -251,7 +250,7 @@ Note:
 
 #### Steering Committee
 Note:
-> A [Organization_Abbreviation] SC (Steering Committee) is a group of General and Strategic members of LF Energy who have the required technical expertise, or know-how, to resolve rare disputes and ensure alignment or coordination between WGs and the goals/mission of the [Organization_Abbreviation]. 
+> A <i>[Organization_Abbreviation]</i> SC (Steering Committee) is a group of General and Strategic members of LF Energy who have the required technical expertise, or know-how, to resolve rare disputes and ensure alignment or coordination between WGs and the goals/mission of the <i>[Organization_Abbreviation]</i>. 
 > It is the Steering Committee’s responsibility to advance the specification.
 
 > CSDC is an autonomous group within the TAC structure ( similar to a TSC of a hosted project).
@@ -262,11 +261,11 @@ Note:
 >
 > - Spin up and spin down working groups as appropriate.
 >
-> - Manage a release of the spec
+> - Manage a release of the specification
 
 * One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
-1. The Steering Committee is comprised of a representative of the founding members of the [Organization_Abbreviation] and has a single primary member representing each company.
+1. The Steering Committee is comprised of a representative of the founding members of the `[Organization_Abbreviation]` and has a single primary member representing each company.
 2. Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 3. Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
 4. A meeting of the Steering Committee makers presumably has a quorum.
@@ -279,7 +278,7 @@ Note:
 
 #### Communications Team 
 
-* Each Steering Member will be represented in the [Organization_Abbreviation] Communication Team by one representative only. 
+* Each Steering Member will be represented in the `[Organization_Abbreviation]` Communication Team by one representative only. 
 * The Communication Team typically focuses on the following:
   * manages internal and external communications;
   * is responsible for press releases;
@@ -294,7 +293,7 @@ Note:
   * Customer Data Working Group, (CD) and
   * Power Systems Data Working Group, (PSD)
 
-## What to Expect from [Organization_Abbreviation] Roles
+## What to Expect from `[Organization_Abbreviation]` Roles
 * [from Members](#from-participants)
 * [from Editors](#from-editors)
 * [from Maintainer(s)](#from-maintainers)
@@ -306,7 +305,7 @@ Note:
 * Participants MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
 * Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
 
-*Note: from [Organization_Abbreviation] Scope & Governance*
+*Note: from `[Organization_Abbreviation]` Scope & Governance*
 ```
 1.3. Participants. “Participants” are those that have made Contributions to the Working Group 
 subject to the Community Specification License.
@@ -316,7 +315,7 @@ subject to the Community Specification License.
 Note:
 > An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
 
-*Note: from [Organization_Abbreviation] Scope & Governance*
+*Note: from `[Organization_Abbreviation]` Scope & Governance*
 
 ```
 1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
@@ -327,7 +326,7 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 
 ### From Maintainers
 
-Note: from [Organization_Abbreviation] Scope & Governance
+Note: from `[Organization_Abbreviation]` Scope & Governance
 ```
 1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
 
@@ -360,7 +359,7 @@ Note: from [Organization_Abbreviation] Scope & Governance
         <th>Strategic</th>
         <th>General</th>
         <th>Associte</th>
-        <th>[Organization_Abbreviation] Community</th>
+        <th><i>[Organization_Abbreviation]</i> Community</th>
     </tr>
   </thead>
   <tbody>
@@ -409,7 +408,7 @@ Note: from [Organization_Abbreviation] Scope & Governance
         <td>Yes</td>
     </tr>
     <tr>
-        <td>Stay up-to-date on [Organization_Abbreviation] progress & innovations</td>
+        <td>Stay up-to-date on <i>[Organization_Abbreviation]</i> progress & innovations</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -499,7 +498,7 @@ Note: from [Organization_Abbreviation] Scope & Governance
         <td colspan="5"><strong>Voting</strong></td>
     </tr>
     <tr>
-        <td>Approval of Publications, Working Group formation and [Organization_Abbreviation] governance</td>
+        <td>Approval of Publications, Working Group formation and <i>[Organization_Abbreviation]</i> governance</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -602,7 +601,7 @@ Note: the following bullet points needs to be reviewed by the group: 3.1, 3.1 an
 This is to ensure that the fact of having memberships levels doesn't contradicts these rules
 ```
 
-Note: from [Organization_Abbreviation] Scope & Governance
+Note: from `[Organization_Abbreviation]` Scope & Governance
 
 ```
 2. Decision Making.
@@ -758,7 +757,7 @@ The Review & Approval process implies that all the contributions need to be acce
 
 ### Technical Specifications Life Cycle
 
-Note: from [Organization_Abbreviation] Scope & Governance
+Note: from `[Organization_Abbreviation]` Scope & Governance
 ```
 4. Specification Development Process.
 4.1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
@@ -963,7 +962,7 @@ These statements are intended to communicate the followig:
 
 * the work is copyrighted;
 * the contributors of the code licensed it, but retain ownership of their copyrights; and
-* it was licensed for distribution as part of the [Organization_Name].
+* it was licensed for distribution as part of the `[Organization_Name]`.
 
 With any of the above statements, the project avoids having to maintain lists of names of the authors or copyright holders, years or ranges of years, and variations on the (c) symbol.
 This aims to minimize the burden on the contributors and maintainers.
@@ -974,7 +973,7 @@ This section provides a recommended format for easy of use, but it is not mandat
 recommended pratice.
 
 #### Reasons to Avoid Listing Copyright Holders
-These are some of the reasons why [Organization_Abbreviation] does not recommend trying to list every copyright holder for contributions to every file:
+These are some of the reasons why `[Organization_Abbreviation]` does not recommend trying to list every copyright holder for contributions to every file:
 
 * Copyright notices are not mandatory in order for the contributor to retain ownership of their copyright.
 * Copyright notices are rarely kept up to date as documentation evolves, resulting inaccurate statements.
@@ -1044,7 +1043,7 @@ In projects where the main deliverables are technical documents, each document M
 The legal disclaimer to insert in each project document SHOULD be:
 
 ```
-© [Organization_Abbreviation] 2022, All rights reserved.
+© `[Organization_Abbreviation]` 2022, All rights reserved.
 
 “THESE MATERIALS ARE PROVIDED “AS IS.”  The parties expressly disclaim any warranties 
 (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, 
