@@ -5,8 +5,8 @@ This document was created to provide a quick overview of the `[Organization_Name
 
 ## Introducion
 The `[Organization_Name]` Process, also called **The Way We Work**, it is described on the following documents:
-* **[Rules of Engagement](./rules_of_engagement.md)** provides a detailed explanation of the rules that formed the `[Organization_Name]` Process:
-  * [[Organization_Name] Governance](./rules_of_engagement.md#governance)
+* **[Rules of Engagement](./Rules_of_Engagement.md)** provides a detailed explanation of the rules that formed the `[Organization_Name]` Process:
+  * [[Organization_Name] Governance](/rules_of_engagement.md#governance)
   * [Membership Benefits](./rules_of_engagement.md#membership-benefits)
   * [[Organization_Name] Roles](./rules_of_engagement.md#what-to-expect-from-the-organizataion-roles)
   * [Development Proces](./rules_of_engagement.md#process)
