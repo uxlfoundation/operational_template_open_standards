@@ -1,5 +1,5 @@
 ## Scope
-The scope of this specification is to define the operations and processes of the [Organization_Name] ([Organization_Abbreviation]).
+The scope of this specification is to define the operations and processes of the `[Organization_Name]` `([Organization_Abbreviation])`.
 
 The [Organization_Name] (Organization Mission). 
 
