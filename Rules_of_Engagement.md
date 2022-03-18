@@ -193,7 +193,7 @@ Kindly consult [`[Organization_Abbreviation]` Dictionary]() for more definitions
    </tr>
    <tr>
       <td><strong>Meeting Calendar</strong></td>
-      <td> <a href="" target="_blank"><strong>Customer Data Working Group, (CD)</strong></a>, and <a href="" target="_blank"><strong>Power Systems Data Working Group, (PSD) </strong></a></td>
+      <td> <a href="" target="_blank"><strong>Working Group I, (WG_1)</strong></a>, and <a href="" target="_blank"><strong>Working Group II, (WG_2) </strong></a>, ...</td>
    </tr>
    <tr>
       <td><strong>Mailing List</strong></td>
@@ -237,31 +237,18 @@ See [Membership Benefits](#membership-benefits)
 Note:
 > The technical Working Groups are open to all.
 >
-> The Strategy WG and the <i>[Organization_Abbreviation]</i> Steering Committee are open to LF Energy General and Strategic members.
+> The Strategy WG and the <i>[Organization_Abbreviation]</i> Steering Committee are open to General and Strategic members.
 >
 > The <i>[Organization_Abbreviation]</i> Steering Committee approves by up or down vote the final specifications. 
 >
 > - Ensures alignment between working groups.
 >
-> - Determines the allocation of resources (financial requests from LF Energy) will require a  Strategic Member sponsoring the request which goes to the LF Energy Governing Board.
+> - Determines the allocation of resources
 >
 > Roles can be found on the next page
 
 
 #### Steering Committee
-Note:
-> A <i>[Organization_Abbreviation]</i> SC (Steering Committee) is a group of General and Strategic members of LF Energy who have the required technical expertise, or know-how, to resolve rare disputes and ensure alignment or coordination between WGs and the goals/mission of the <i>[Organization_Abbreviation]</i>. 
-> It is the Steering Committee’s responsibility to advance the specification.
-
-> CSDC is an autonomous group within the TAC structure ( similar to a TSC of a hosted project).
-
-> It has the role of:
->
-> - Coordinate activities and discussions between working groups.
->
-> - Spin up and spin down working groups as appropriate.
->
-> - Manage a release of the specification
 
 * One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
@@ -290,8 +277,8 @@ Note:
 
 * Working Groups (WGs) that are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages):
 
-  * Customer Data Working Group, (CD) and
-  * Power Systems Data Working Group, (PSD)
+  * Working Group I, (WG_1) and
+  * Working Group II, (WG_2)
 
 ## What to Expect from `[Organization_Abbreviation]` Roles
 * [from Members](#from-participants)
@@ -368,9 +355,9 @@ Note: from `[Organization_Abbreviation]` Scope & Governance
     </tr>
     <tr>
         <td>Price</td>
-        <td>$150K</td>
-        <td>$20-5K</td>
-        <td>$0K</td>
+        <td>$XXX</td>
+        <td>$XXX</td>
+        <td>$XXX/td>
         <td>$0K</td>
     </tr>
     <tr>
@@ -687,7 +674,7 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 Note: Supermajority Vote
 
 ```
-Define Supermajority
+Note: Define Supermajority
 ```
 *	Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
 * Members eligible to vote, SHALL only be entitled to one vote each.
@@ -848,7 +835,7 @@ In this section the diagram below depictures the development phases of technical
 It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible. 
 
 <figure>
-	<img src="images/[Organization_Abbreviation]C-Git-Flow-2.svg" alt="[Organization_Abbreviation] Git Flow">
+	<img src="images/Git-Flow-2.svg" alt="[Organization_Abbreviation] Git Flow">
 	<figcaption>[Organization_Abbreviation] GitHub Flow</figcaption>
 </figure>
 
