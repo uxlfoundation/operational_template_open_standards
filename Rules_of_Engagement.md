@@ -1024,6 +1024,34 @@ Also consider to:
 * keep these files in sync with the upstream project
 * ask the upstream project to insert the identifiers on their source code files / documents.
 
+### [Organization_Name] Software License Policy
+This policy is intended to assist `[Organization_Name]` Technical Working Groups to handle Software Licenses in the Projects.
+
+#### Recommended SafeGuards
+**1. Escalation Path**
+
+  - Any question about licensing should be resolved by the Working Group (WG), if the WG cannot resolve it, then the question can be sent to the Technical Steering Committee (TSC)
+      - LF doesn’t provide legal advice or comments about license compatibility (unless LF identifies some clear incompatibilities)
+      - The Steering members may need to involve their Legal Counsel to make a license decision
+      - Only the TSC can decide if a component created by the Project can be delivered under a different license than the Project License
+
+**2. Linked Libraries & 3 Party Software**
+
+  - It is not recommended to pull software code, under different license than the Project License, into the project repository. Use linked libraries instead.
+  - If 3rd party software is embedded, it should be under the Project License. If different licenses are used, then create a NOTICE file listing all the 3rd party license notice.
+  - As a rule, if a software code developed by `[Organization_Name]` has an external dependency to a code distributed under GPL 2.0, then `[Organization_Name]` members need to consult with their legal counsel to decide under what license the `[Organization_Name]` software code should be released. In other words, if the code developed by `[Organization_Name]` doesn’t work without the reference to the external code under GPL 2.0, then the license to release the `[Organization_Name]` code should be evaluated.
+
+**3. License Compatibility**
+
+  - Any upstream license needs to be compatible with the Project License
+  - Any copyleft license inserted in a project repository needs to be flagged to the Organization Team
+
+**4. Binary Distribution**
+
+  - It is a good practice to point users to the libraries so they can compile them on their own
+  - If the group decides to ship binaries, the binaries should be ONLY for the code developed under the Project License.
+  - If there are any other binaries under different license, then each binary should be distributed in its own files. Binaries under a license different than the Project License CANNOT packed with the same binaries than the ones created by the group
+  
 ### Technical Document License
 In projects where the main deliverables are technical documents, each document MUST have a legal disclaimer.
 
