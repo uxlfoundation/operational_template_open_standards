@@ -280,7 +280,7 @@ Note:
   * Working Group I, (WG_1) and
   * Working Group II, (WG_2)
 
-## What to Expect from `[Organization_Abbreviation]` Roles
+## What to Expect from Organization Roles
 * [from Members](#from-participants)
 * [from Editors](#from-editors)
 * [from Maintainer(s)](#from-maintainers)
@@ -689,7 +689,7 @@ Note: Define Supermajority
   * Teleconference meetings require at least 7 days prior written notice
   * Electronic voting MUST remain open for no less than 7 days.
 
-## [Organization_Abbreviation] Approval Process
+## Approval Process
 <figure>
 	<img src="images/R_A-1.svg" alt="Review & Approval">
 	<figcaption>Review & Approval</figcaption>
