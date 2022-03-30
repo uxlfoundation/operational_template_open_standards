@@ -97,3 +97,4 @@ The `CONTRIBUTING.md` is a text file available in each `[Organization_Name]` rep
 
 ### Release Planning
 Each Working Group should create and maintain its own Release Planning Document. This document in its simplest form, is a table (a Release Roadmap), which reflects the expectations about which features will be implemented and by when. See an [example]() of a Release file.
+
