@@ -1,7 +1,5 @@
-3# Process Overview
-
 ## Scope
-This document was created to provide a quick overview of the `[Organization_Name]` Process. It highligts the most important aspects of the `[Organization_Name]` Process. For further details, please  use the links provided.
+This document was created to provide a quick overview of the `[Organization_Name]` Process. It highligts the most important aspects of the `[Organization_Name]` Process. 
 
 ### Introducion
 The `[Organization_Name]` Process, also called **The Way We Work**, it is described on the following documents:
@@ -78,7 +76,7 @@ Once the Group has formally approved the work under development, the deriverable
 #### Software Code Development
 The diagram below provides the process flow for code development.
 
-![image](https://user-images.githubusercontent.com/3258579/136839210-fcd218ea-7227-407e-a5b2-4e4c555ad54d.png)
+Image TBD
 
 The process to approve Pull Requests is decided by each Working Group. This process is described in the **`CONTRIBUTING.md`** file available on each repository. In any case, `[Organization_Name]` recommends to follow the guidelines described in the **[Review & Approval Process](./Rules_of_Engagement.md#[Organization_Name]-approval-process)**
 
