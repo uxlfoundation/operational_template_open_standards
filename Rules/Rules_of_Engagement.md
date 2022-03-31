@@ -28,7 +28,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Editor(s)</strong></td>
-	<td>A member of a Working Group that is responsible to edit and maintain a document.</td>
+	<td>A member of a Working Group who is responsible to edit and maintain a document.</td>
     </tr>	  
     <tr>
 	<td><strong>Epic</strong></td>
@@ -47,6 +47,7 @@ Every term used in the document should be defined in this section.
 	<td><i>[Organization_Abbreviation]</i> member that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
   A Maintainer is the person (or persons) *responsible for the direction or movement* of a <i>[Organization_Name]</i> Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
   A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the <i>[Organization_Name]</i>, or written documentation that made <i>[Organization_Abbreviation]</i> more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</td>
+  <i>A maintainer is the final control point for contributions to a specification. Typically pull requests will be proposed but they need to be approved by the working group under consensus rules.  The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions.  The maintainer(s) should the ones to merge the PR into the updated baseline .</td>
     </tr>
     <tr>
 	<td><strong>Member(s)</strong></td>
