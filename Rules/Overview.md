@@ -20,11 +20,24 @@ Companies that want to participate in a particular Working Group are required to
 * [Working Group IV Charter]()
 
 **[[Organization_Name] Roles](./Rules_of_Engagement.md#what-to-expect-from-the-organizataion-roles)**
+This section provides a description of what tasks and behaviour is expected by the different roles in the organization: chairs and vice-chairs, editor, mainteners, administrators and members in general.
 
 **[Development Proces](./Rules_of_Engagement.md#approval-process)**
+This section provides suggestions on how the Working Groups can approve Pull Requests; the final process is decided by each Working Group. The process is described in the **`CONTRIBUTING.md`** file available on each repository. In any case, this section recommends to follow the guidelines described in the **[Review & Approval Process](./Rules_of_Engagement.md#[Organization_Name]-approval-process)**
+
+**License on Technical Documents**
+The section provides a **[License statement](./Rules_of_Engagement.md#technical-document-license)** that needs to be inserted in all documents published by the Working Groups.
+
 **[Documentation - Versioning](./Rules_of_Engagement.md#documentation)**
-**[Copyright Rules](./Rules_of_Engagement.md#copyright)**
-**[Licensing Policy](./Rules_of_Engagement.md#licenses)**
+The organization publishes its deliverables: technical documents and, or software code, following **[Semantic Versioning](./Rules_of_Engagement.md#semantic-versioning)**, which provides a simple criteria to decide the version - Vx.y.z - of content to be released by the Working Groups.
+
+
+**[Copyright and Licensing Best Practise](./Rules_of_Engagement.md#copyright)**
+These rules are guidelines on how to write simple and easy to maintain **[Copyright](./Rules_of_Engagement.md#copyright)** statements. As well as how handle **[Software Licenses](./Rules_of_Engagement.md#licenses)** in the repositories of the organization. 
+
+**[Software License Policy](./Rules_of_Engagement.md#software-license-policy)**
+This policy provides a set of Software Licenses rules that must be followed up by the contributors to the organization repositories.
+
 **[Technical Decision Making](./Rules_of_Engagement.md#technical-decision-making)**
 **Using Supermajority vote to achieve agreement**
 **[[Organization_Name] Approval Process](./Rules_of_Engagement.md#omp-approval-process)** which is used to approve contributions presented to the Working Groups 
@@ -43,56 +56,35 @@ Each Working Group should create and maintain its own **Release Planning Documen
 
 
 
-#### Members Benefits
+**Members Benefits**
 In the **[Rules of Engagement](./Rules_of_Engagement.md)** document, the section **[Membership Benefits](./Rules_of_Engagement.md#membership-benefits)** provides a detailed list of benefits for each Membership level.
 
 
-#### Working Group Charters
+**Working Group Charters**
 
 
-#### Work Packages
-<figure>
-	<img src="images/breakdown.svg" alt="[Organization_Name] Work Units">
-	<figcaption>[Organization_Name] Work Units</figcaption>
-</figure>
+**Work Packages**
+A **[Work Package](./Rules_of_Engagement.md#work-packages)** describes the scope of the work and expected deliverables. It must be ratified by the **[Steering Committee](./Rules_of_Engagement.md#steering-committee)** and it is assigned to a Working Group.
 
-The **[Work Package](./Rules_of_Engagement.md#work-packages)** describes the scope of the work and expected deliverables. It must be ratified by the **[Steering Committee](./Rules_of_Engagement.md#steering-committee)** and it is assigned to a Working Group.
-
-#### Technical Specifications Developement
-The diagram depictures a high level the process for developing Technical Specifications.
-
-<figure>
-	<img src="images/life_cycle.svg" alt="Specifications Life Cycle">
-	<figcaption>Specifications Life Cycle</figcaption>
-</figure>
+**Technical Specifications Developement**
+The section provides a high level process for developing Technical Specifications.
 
 Once the **[Work Package](./Rules_of_Engagement.md#work-packages)** has been defined, the **[Development](./Rules_of_Engagement.md#work-flow-for-technical-specifications-development)** work starts. After the development work is completed, the group will initiate the **[Consistency Review](./Rules_of_Engagement.md#work-flow-for-technical-specifications-development)**, which is a process to formally evaluate the documentation prior final approval by the Working Group.
 The **[Approval](./Rules_of_Engagement.md#omp-approval-process)** of the Specifications is performed by the Working Group after completing the **[Consistency Review](./Rules_of_Engagement.md#work-flow-for-technical-specifications-development)**.
 Once the Group has formally approved the work under development, the deriverables need to be **[ratified](./Rules_of_Engagement.md#work-flow-for-technical-specifications-development)** by the **[Organization Team](./Rules_of_Engagement.md#organization-team)**. The **[ratification](./Rules_of_Engagement.md#work-flow-for-technical-specifications-development)** by the **[Technical Steering Committee](./Rules_of_Engagement.md#organization-team)** triggers the  **[Publication](./Rules_of_Engagement.md#work-flow-for-technical-specifications-development)** of the corresponding deliverables.
 
-##### Technical Document License
-`[Organization_Name]` Process provide a **[License statement](./Rules_of_Engagement.md#technical-document-license)** that needs to be inserted in all documents published by the Working Groups.
-
-#### Software Code Development
-The diagram below provides the process flow for code development.
-
-Image TBD
-
-The process to approve Pull Requests is decided by each Working Group. This process is described in the **`CONTRIBUTING.md`** file available on each repository. In any case, `[Organization_Name]` recommends to follow the guidelines described in the **[Review & Approval Process](./Rules_of_Engagement.md#[Organization_Name]-approval-process)**
-
-##### Copyright and Licensing Best Practise
-`[Organization_Name]` Process provides a set of guidelines on how to write and maintain **[Copyright](./Rules_of_Engagement.md#copyright)** statements with minimum effort. As well as how to best handling **[Software Licenses](./Rules_of_Engagement.md#licenses)** in `[Organization_Name]` repositories. If your project imports software code from a 3 party it is important to include the license as it is (without being modified) and ensure that the **[license is compatible](./Rules_of_Engagement.md#omp-software-license-policy)**.
-
-##### Software License Policy
-Contributors to `[Organization_Name]` repositories must be familar with **[Software License Policy](./Rules_of_Engagement.md#software-license-policy)**. This policy provides a set of simple rules related to Software Licenses that must be followed up by Contributors to the `[Organization_Name]` repositories.
 
 
-#### Semantic Versioning
-`[Organization_Name]` published its deliverables: technical documents and, or software code, following **[Semantic Versioning](./Rules_of_Engagement.md#semantic-versioning)**, which provides a simple criteria to decide the version - Vx.y.z - of content to be released by the Working Groups.
-
-#### CONTRIBUTING.md
 
 
-#### Release Planning
+
+
+
+
+
+
+
+
+
 
 
