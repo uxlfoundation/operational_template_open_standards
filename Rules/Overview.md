@@ -1,54 +1,54 @@
 ## Scope
-This document was created to provide a quick overview of the `[Organization_Name]` Process. It highligts the most important aspects of the `[Organization_Name]` Process. 
+This document describes the process for `[Organization_Name]`. 
 
 ### Introducion
-The `[Organization_Name]` Process, also called **The Way We Work**, it is described on the following documents:
-* **[Rules of Engagement](./Rules_of_Engagement.md)** provides a detailed explanation of the rules that formed the `[Organization_Name]` Process:
-  * [[Organization_Name] Governance](./Rules_of_Engagement.md#governance)
-  * [Membership Benefits](./Rules_of_Engagement.md#membership-benefits)
-  * [[Organization_Name] Roles](./Rules_of_Engagement.md#what-to-expect-from-the-organizataion-roles)
-  * [Development Proces](./Rules_of_Engagement.md#approval-process)
-  * [Documentation - Versioning](./Rules_of_Engagement.md#documentation)
-  * [Copyright Rules](./Rules_of_Engagement.md#copyright)
-  * [Licensing Policy](./Rules_of_Engagement.md#licenses)
+This process is also called **The Way We Work** and contains the following documents:
 
-* The document also contains **Guidelines for Working Group Chairs**, which are sections dedicated to explain Processes that are normally enforced by the Working Group Chairs. It contains procedures such as:
-  * [Technical Decision Making](./Rules_of_Engagement.md#technical-decision-making)
-  * Using Supermajority vote to achieve agreement
-  * [[Organization_Name] Approval Process](./Rules_of_Engagement.md#omp-approval-process) which is used to approve contributions presented to the Working Groups 
-  * [[Organization_Name] Work Flow](./Rules_of_Engagement.md#github-flows)
+**[Rules of Engagement](./Rules_of_Engagement.md)**
+Content summary for each section:
 
-* **[Working Group Chair Check List](./wg-chair-check-list.md)** as it name indicates, it contains a list of activities to be performed by the Working Group Chairs.
+**[[Organization_Name] Governance](./Rules_of_Engagement.md#governance)**
+`[Organization_Name]` is headed by the **[Steering Committee](./Rules_of_Engagement.md#steering-committee)**, which is formed by the members from the [Steering Members](https://open-manufacturing.org/). The **[Steering Committee](./Rules_of_Engagement.md#steering-committee)** meets once a `week, biweekly, monthly` deals with the day to day activities to the Organizaton.
+The **[Marketing Team](./Rules_of_Engagement.md#marketing-team)** is also formed by representatives from the Steering Members, it meets once a `week, biweekly, monthly` to discuss Marketing related topics.
 
-* **`CONTRIBUTING.md`** is a document that describes how to contribute on a particular repository. Each repository used by the Working Group should have its own `CONTRIBUTING.md` document.
-
-* **`Release Planning`** the content of this document can be easily presented in a table that indicates the milestones for each Working Group deliverable. This content represents what the group is planning to deliver and by when.
-
-### Rules of Engagement
-As described above the **[Rules of Engagement](./Rules_of_Engagement.md)** provides a detailed overview of the `[Organization_Name]` Process, Procedures and Guidelines. 
-The following sub-sections provide a high level summary of the technical aspects described in the document.
-
-#### Organization Structure
-`[Organization_Name]` is headed by the **[Steering Committee](./Rules_of_Engagement.md#steering-committee)**, which is formed by the Senior Managers from the [Steering Members](https://open-manufacturing.org/). The **[Steering Committee](./Rules_of_Engagement.md#steering-committee)** meets once a week, biweekly, or monthly deals with the day to day activities to the Organizaton.
-The **[Marketing Team](./Rules_of_Engagement.md#marketing-team)** is also formed by representatives from the Steering Members, it meets once a week, biweekly or monthly to discuss Marketing related topics.
-
-The diagram below depictures `[Organization_Name]` Organigram.
-<figure>
-	<img src="images/omp_governance.svg" alt="`[Organization_Name]` Governance Structure">
-	<figcaption>[Organization_Name] Governance Structure</figcaption>
-</figure>
-
-#### Members Benefits
-In the **[Rules of Engagement](./Rules_of_Engagement.md)** document, the section **[Membership Benefits](./Rules_of_Engagement.md#membership-benefits)** provides a detailed list of benefits for each Membership level.
-
-
-#### Working Group Charters
+**[Membership Benefits](./Rules_of_Engagement.md#membership-benefits)**
 Companies that want to participate in a particular Working Group are required to sign the corresponding Working Group Charter. The current `[Organization_Name]` Working Group Charters are:
 
 * [Working Group I Charter]()
 * [Working Group II Charter]()
 * [Working Group III Charter]()
 * [Working Group IV Charter]()
+
+**[[Organization_Name] Roles](./Rules_of_Engagement.md#what-to-expect-from-the-organizataion-roles)**
+
+**[Development Proces](./Rules_of_Engagement.md#approval-process)**
+**[Documentation - Versioning](./Rules_of_Engagement.md#documentation)**
+**[Copyright Rules](./Rules_of_Engagement.md#copyright)**
+**[Licensing Policy](./Rules_of_Engagement.md#licenses)**
+**[Technical Decision Making](./Rules_of_Engagement.md#technical-decision-making)**
+**Using Supermajority vote to achieve agreement**
+**[[Organization_Name] Approval Process](./Rules_of_Engagement.md#omp-approval-process)** which is used to approve contributions presented to the Working Groups 
+**[[Organization_Name] Work Flow](./Rules_of_Engagement.md#github-flows)**
+
+**[Working Group Chair Check List](./wg-chair-check-list.md)** as it name indicates, it contains a list of activities to be performed by the Working Group Chairs.
+
+In addition to the [Rules of Engagement]() there are two documents that provide further procedures:
+
+**`CONTRIBUTING.md`** 
+The `CONTRIBUTING.md` is a text file available in each `[Organization_Name]` repository. This file is created and approved by the corresponding `[Organization_Name]` Working Group. Its purpose is to describe how contribute to a particular repository. It can be adjusted as needed from one repository to another, even within the same Working Group. See an [example]() of a CONTRIBUTING.md file.
+
+**`Release Planning`** 
+It is a set of milestones that indicate what the group is planning to deliver and by when.
+Each Working Group should create and maintain its own **Release Planning Document**. This document in its simplest form, is a table (a Release Roadmap), that contains version and release date. It can be extended with the list of features that will be released. See an [example]() of a **Release Planning table**.
+
+
+
+#### Members Benefits
+In the **[Rules of Engagement](./Rules_of_Engagement.md)** document, the section **[Membership Benefits](./Rules_of_Engagement.md#membership-benefits)** provides a detailed list of benefits for each Membership level.
+
+
+#### Working Group Charters
+
 
 #### Work Packages
 <figure>
@@ -91,8 +91,8 @@ Contributors to `[Organization_Name]` repositories must be familar with **[Softw
 `[Organization_Name]` published its deliverables: technical documents and, or software code, following **[Semantic Versioning](./Rules_of_Engagement.md#semantic-versioning)**, which provides a simple criteria to decide the version - Vx.y.z - of content to be released by the Working Groups.
 
 #### CONTRIBUTING.md
-The `CONTRIBUTING.md` is a text file available in each `[Organization_Name]` repository. This file is created and approved by the corresponding `[Organization_Name]` Working Group. Its purpose is to describe how contribute to a particular repository. It can be adjusted as needed from one repository to another, even within the same Working Group. See an [example]() of a CONTRIBUTING.md file.
+
 
 #### Release Planning
-Each Working Group should create and maintain its own Release Planning Document. This document in its simplest form, is a table (a Release Roadmap), which reflects the expectations about which features will be implemented and by when. See an [example]() of a Release file.
+
 
