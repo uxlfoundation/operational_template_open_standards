@@ -1,2 +1,2 @@
-# the_way_we_work
-This repository is dedicated to break down high level process into practical procedures and tasks
+# Operational Template for Open Standards Organizations
+This is a template guide for operating an open standards project. Each of our standards projects can choose an operational process that maps to how they want to work, but it often helps to start from a template that has been reused before. We offer this template as a starting point and encourage our standards communities to adjust it for how they want to work. If you find an improvement that you think others would benefit from, please feel free to contribute a PR back to this repository. If you find an issue you feel needs to be address, please open an issue. We would like to continue building a better template over time.
