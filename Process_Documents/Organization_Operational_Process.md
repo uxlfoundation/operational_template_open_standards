@@ -1,7 +1,9 @@
 ## Organization Operational Document
-This document is a template that needs to be customized for each Organization.
-The document is written 
+
 The scope of the document is to provide a set of practical rules that you can adapt and evolve as you see fit. 
+
+The document is a template that needs to be customized for each Organization.
+It section contains notes that should be deleted once the customization is completed.
 
 ## Terminology and Conventions
 
@@ -26,12 +28,12 @@ This word, or the adjective "OPTIONAL", mean that an item is truly optional.  On
 
 
 ### Definitions
+
 ```
 Note: To Be Deleted
 
 Every term used in the document should be defined in this section.
 ```
-
 
 <table>
   <caption>Definitions</caption>
@@ -123,7 +125,12 @@ Every term used in the document should be defined in this section.
   </tbody>
 </table>
 
-Kindly consult the [Organization Dictionary]() for more definitions used in this document.
+```
+Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. 
+
+When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.
+
+```
 
 ### Abbreviations
 
@@ -155,26 +162,31 @@ Kindly consult the [Organization Dictionary]() for more definitions used in this
     <td>Requirement Document</td>
   </tr>	
   <tr>
-    <td>SC</td>
-    <td>Steering Committee</td>
-  </tr>
-  <tr>
     <td>SUP</td>
     <td>Supporting Document</td>
   </tr>	
   <tr>
     <td>TS</td>
     <td>Technical Specification</td>
-  </tr>	
+  </tr>
+    <tr>
+    <td>TSC</td>
+    <td>Technical Steering Committee</td>
+  </tr>
 </tbody>
 </table>
 
 ## Introduction
 
 ## Governance
+
 ### Membership Levels
 
-> Note: Provide a list of Membership Levels:
+```
+Note: Provide a list of Membership Levels:
+```
+
+The Organization Membership Levels are:
 
 * Strategic
 * General
@@ -184,10 +196,14 @@ See [Membership Benefits](#membership-benefits)
 
 ### Organization Structure
 
-> Note: Replace the following diagram with your Organization organigram
+```
+Note: Replace the following diagram with your Organization organigram
+```
 
-<img width="298" alt="organigram" src="https://user-images.githubusercontent.com/3258579/171531827-ea7d3d4e-4490-4995-b0f3-41c0066a7ca2.png">
-
+<figure>
+	<img src="images/organigram.svg" alt="Organization Organigram">
+	<figcaption>Organization Organigram</figcaption>
+</figure>
 
 #### Steering Committee
 
