@@ -314,6 +314,10 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 
 ## Membership Benefits
 
+```
+Note: Please update the Membership Benefits table below based on your Organization views. Alternatively, this table could be moved to the Organization website.
+```
+
 <table>
   <caption>Membership Benefits</caption>
   <thead>
@@ -476,11 +480,32 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 </table>
 
 ## Meetings
+
+```
+Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.
+```
 * WGs are encouraged to schedule regular conference calls.
 * The Meetings MUST be announced at least, 7 days in advance for conference calls, and 1 month for face to face meetings.
 * All the Organization members are contractually bound to the IPR policy under terms of the Membership Application and these IPR Guidelines must be followed.
 * Meetings SHALL have an antitrust statement and an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
 * A meeting attendee list MUST be produced for each meeting. This is necessary to determine which members can vote in a Supermajority vote.
+
+### Meeting Agenda
+
+```
+Note: An effective Meeting Agenda enable teams to organize its topics and give a fair chance for every topic to be discussed.
+```
+* Please refer to the Organization Agenda & Meeting Minutes [Template]()
+
+### Meeting Minutes
+
+``` 
+Note: It is important to record the key issues discussed during the meeting, motions proposed or voted, and activities to be undertaken.
+Also, it should be recorded meeting attendance, specially if there is a voting requirement associated with members attendance.
+
+It is recommended to define an Agenda & Meeting Minutes template.
+```
+* Please refer to the Organization Agenda & Meeting Minutes [Template]()
 
 ## Technical Decision Making
 ### Decision Making
