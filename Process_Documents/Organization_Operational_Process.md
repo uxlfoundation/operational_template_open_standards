@@ -197,7 +197,7 @@ See [Membership Benefits](#membership-benefits)
 ### Organization Structure
 
 ```
-Note: Replace the following diagram with your Organization organigram
+Note: Replace this example diagram with your own Organization organigram. Here you can see how some Groups add Sub-Working Groups pending from the Working Groups or Committee Teams pending from the Technical Steering Committee.
 ```
 
 <figure>
@@ -205,22 +205,32 @@ Note: Replace the following diagram with your Organization organigram
 	<figcaption>Organization Organigram</figcaption>
 </figure>
 
-#### Steering Committee
+#### Technical Steering Committee
 
-* One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
+One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
-1. The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
-2. Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
-3. Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-4. A meeting of the Steering Committee makers should has a quorum of `X` Steering Committee participants.
-5. Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
-6. The votes are taken only by the appointed representatives of the Steering Committee.
-7. Minutes of the meeting are taken to record the votes and their outcomes. 
+```
+Note: please update the placeholders marked as `X` with your own input.
+```
+
+* The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
+* Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
+* Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
+* A meeting of the Steering Committee makers should has a quorum of `X` Steering Committee participants.
+* Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
+* The votes are taken only by the appointed representatives of the Steering Committee.
+* Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
  
  Note:
 > Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
 
 #### Marketing Committee Team
+
+```
+Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
+In this section we provide a template listing different Marketing responsibilities. 
+Please update this section as you see fit.
+```
 
 * Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
 * The Marketing Team 1 typically focuses on the following:
@@ -231,9 +241,21 @@ Note: Replace the following diagram with your Organization organigram
   * manages the communication strategy.
 
 #### Working Groups (WG)
-* Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages):
+```
+Note: Please list all the Working & Sub-Working Groups inside of the Organization.
+This section should be updated each time that a new Working or Sub-Working Group is added or removed it.
+```
+* Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
+* The Organization has the following Working Groups:
+  * Working Group Name 1
+  * Working Groupo Name 2
+    * Sub-Working Group Name 1
 
 ## Organization Roles
+
+```
+Note: It is important to provide a description of what is expected from each Organization role.
+```
 * [Participants](#participants)
 * [Editors](#editors)
 * [Maintainer(s)](#maintainers)
@@ -242,21 +264,20 @@ Note: Replace the following diagram with your Organization organigram
 Note:
 > A Participant is any individual creating content or commenting on an issue or pull request.
 
-* Participants MUST read the Project documentation (e.g.: contribution guidelines, README, and Release Planning file) before attenting to submit an Issue or Pull Request
+* Participants MUST read the Project documentation (e.g.: this operational document, contribution guidelines, README, and Release Planning documents) before attenting to submit an Issue or Pull Request
 * Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
 
-*Note: from Scope & Governance*
+>Note: from [Scope & Governance]() Document
 
 ```
-1.3. Participants. “Participants” are those that have made Contributions to the Working Group 
-subject to the Community Specification License.
+1.3. Participants. “Participants” are those that have made Contributions to the Working Group subject to the Community Specification License.
 ```
 
 ### Editors
 Note:
 > An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
 
-*Note: from Scope & Governance*
+>Note: from [Scope & Governance]() Document
 
 ```
 1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
@@ -267,7 +288,8 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 
 ### Maintainers
 
-Note: from Scope & Governance
+>Note: from [Scope & Governance]() Document
+
 ```
 1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
 
