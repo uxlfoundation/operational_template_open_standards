@@ -1,15 +1,28 @@
-## Rules of Engagement
-The scope of this specification is to define the operations and processes of the `[Organization_Name]` `([Organization_Abbreviation])`.
-
-The `[Organization_Name]` (Organization Mission). 
+## Organization Operational Document
+This document is a template that needs to be customized for each Organization.
+The scope of the document is to provide a set of practical rules that you can adapt and evolve as you see fit. 
 
 ## Terminology and Conventions
 
 ### Language
-The default language for writting `[Organization_Abbreviation]` documentation is the American English, English (United States).
+The default language for writting documentation is the American English, English (United States).
 
 ### Conventions
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
+
+> Note: It is recommended to use the following terminology when writing Technical Specifications:
+
+**MUST**:
+This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
+
+	
+**SHOULD**:
+This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
+
+**MAY**:
+This word, or the adjective "OPTIONAL", mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that  it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which  does not include the option (except, of course, for the feature the  option provides.)
+
+
 
 ### Definitions
 ```
@@ -29,10 +42,6 @@ Every term used in the document should be defined in this section.
     <tr>
 	<td><strong>Editor(s)</strong></td>
 	<td>A member of a Working Group who is responsible to edit and maintain a document.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Epic</strong></td>
-	<td>It is a component inside of a Work Package. It could be a feature, customer request or business requirement.</td>
     </tr>
     <tr>
 	<td><strong>e-Vote</strong></td>
@@ -40,30 +49,31 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally, in <i>[Organization_Abbreviation]</i> Issues are tracked in Github.</td>
-    </tr>	  
+	<td>An important topic or problem for debate or discussion. Normally, in  Issues are tracked in Github.</td>
+    </tr>
     <tr>
 	<td><strong>Maintainer</strong></td>
-	<td><i>[Organization_Abbreviation]</i> member that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
-  A Maintainer is the person (or persons) *responsible for the direction or movement* of a <i>[Organization_Name]</i> Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
-  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the <i>[Organization_Name]</i>, or written documentation that made <i>[Organization_Abbreviation]</i> more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</td>
-  <i>A maintainer is the final control point for contributions to a specification. Typically pull requests will be proposed but they need to be approved by the working group under consensus rules.  The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions.  The maintainer(s) should the ones to merge the PR into the updated baseline .</td>
+	<td>A member of the Organization that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
+  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
+  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the Organization, or written documentation that made the Organization more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
+  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed but members and approve by the working group following consensus rules. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
     </tr>
     <tr>
 	<td><strong>Member(s)</strong></td>
-	<td>A person that belongs to a company that has signed <i>[Organization_Abbreviation]</i> Membership Application and Charter(s) and have access to <i>[Organization_Abbreviation]</i> resources.</td>
+	<td>A person that belongs to a company that has signed the Organization Membership Application, Project and Working Group Charter(s)
+  </td>
     </tr>	  
     <tr>
 	<td><strong>Membership Application</strong></td>
-	<td>A legal document that provides legal information about rights and obligations of being a member company of <i>[Organization_Abbreviation]</i>.</td>
+	<td>A document that provides legal information about rights and obligations of being a member company of Organization.</td>
     </tr>
     <tr>
 	<td><strong>Participant</strong></td>
-	<td>A Participant is any individual creating content or commenting on an issue or pull request.</td>
+	<td>A Participant is any individual creating content or commenting on an Issue or Pull Request.</td>
     </tr>
     <tr>
 	<td><strong>Project Charter</strong></td>
-	<td>A legal document that describes the <i>[Organization_Abbreviation]</i> Project.</td>
+	<td>A legal document that describes the Organization Project.</td>
     </tr>
     <tr>
 	<td><strong>Pull Request</strong></td>
@@ -83,7 +93,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Source Code</strong></td>
-	<td>A text listing of commands to be compiled or assembled into an executable computer program.</td>
+	<td> It is any collection of code, with or without comments, written using a human-readable programming language, usually as plain text.</td>
     </tr>	  
     <tr>
 	<td><strong>Specification(s)</strong></td>
@@ -91,11 +101,11 @@ Every term used in the document should be defined in this section.
     </tr>	  
     <tr>
 	<td><strong>Steering Committee</strong></td>
-	<td>A committee that decides on the priorities or order of business on <i>[Organization_Abbreviation]</i>. </td>
+	<td>A committee that decides on the priorities or order of business of the Organization</i>. </td>
     </tr>
     <tr>
 	<td><strong>Working Group</strong></td>
-	<td>It is a group of expertes working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
+	<td>A group of expertes working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
     </tr>
     <tr>
 	<td><strong>Working Group Maintainer</strong></td>
@@ -107,12 +117,12 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Work Package</strong></td>
-	<td>It is a group of related tasks within a project. Each Work Package can be broken down into one or more Epics.</td>
+	<td>It is a group of related tasks within a project. Each Work Package can be broken down into one or more groups.</td>
     </tr>	  
   </tbody>
 </table>
 
-Kindly consult [`[Organization_Abbreviation]` Dictionary]() for more definitions used in this document.
+Kindly consult the [Organization Dictionary]() for more definitions used in this document.
 
 ### Abbreviations
 
@@ -131,10 +141,6 @@ Kindly consult [`[Organization_Abbreviation]` Dictionary]() for more definitions
     <td>WG</td>
     <td>Working Group</td>
   </tr>
-  <tr>
-    <td><i>[Organization_Abbreviation]</i></td>
-    <td><i>[Organization_Name]</i></td>
-  </tr>	
   <tr>
     <td>PR</td>
     <td>Pull Request</td>
@@ -164,67 +170,11 @@ Kindly consult [`[Organization_Abbreviation]` Dictionary]() for more definitions
 
 ## Introduction
 
-## [Organization_Abbreviation] Resources
-
-
-<table>
-  <caption>[Organization_Abbreviation] Overview</caption>
-  <thead>
-    <tr>
-      <th>System</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-   <tr>
-      <td><a href="" target="_blank"><strong>Website</strong></a></td>
-      <td>Public website dedicated to <i>[Organization_Abbreviation]</i> Consortium content.</td>
-   </tr>
-   <tr>
-      <td><a href="" target="_blank"><strong>GitHub</strong></a></td>
-      <td><i>[Organization_Abbreviation]</i> GitHub repositories open to the public.</td>
-   </tr>	  
-   <tr>
-      <td><a href="" target="_blank"><strong>Technical Publication</strong></a></td>
-      <td>Technical Specifications created by <i>[Organization_Name]</i>.</td>
-   </tr>
-   <tr>
-      <td><a href="" target="_blank"><strong>Membership Enrolment</strong></a></td>
-      <td>Process steps to join <i>[Organization_Abbreviation]</i>.</td>
-   </tr>
-   <tr>
-      <td><strong>Meeting Calendar</strong></td>
-      <td> <a href="" target="_blank"><strong>Working Group I, (WG_1)</strong></a>, and <a href="" target="_blank"><strong>Working Group II, (WG_2) </strong></a>, ...</td>
-   </tr>
-   <tr>
-      <td><strong>Mailing List</strong></td>
-      <td> <a href="" target="_blank"><strong>Mailing List</strong></a></td>
-   </tr>
-   <tr>
-      <td><strong>Wiki</strong></td>
-      <td> <a href="" target="_blank"><strong>Wiki</strong></a></td>
-   </tr>
-   <tr>
-      <td><a href="" target="_blank"><strong>Members Onboarding</strong></a></td>
-      <td> Welcome to <i>[Organization_Abbreviation]</i>.</td>
-   </tr>
-   <tr>
-      <td><a href=""><strong>Working Group Charters</strong></a></td>
-      <td> GitHub repository that contains WG charters and Membership Application documemntation.</td>
-   </tr>
-   <tr>
-      <td><a href="" target="_blank"><strong>Rules of Engagement</strong></a></td>
-      <td><i>[Organization_Abbreviation]</i> process and rules.</td>
-   </tr>
-   <tr>
-      <td><strong>CONTRIBUTING</strong></td>
-      <td> Each repository contains a CONTRIBUTING.md file that explains how to contribute on that particular repository.</td>
-   </tr>
-  </tbody>
-</table>
-
 ## Governance
 ### Membership Levels
+
+> Note: Provide a list of Membership Levels:
+
 * Strategic
 * General
 * Associate
@@ -233,30 +183,19 @@ See [Membership Benefits](#membership-benefits)
 
 ### Organization Structure
 
-<img width="298" alt="image" src="https://user-images.githubusercontent.com/3258579/158926136-cf301d00-e072-4d38-91b3-c22f6584aa39.png">
+> Note: Replace the following diagram with your Organization organigram
 
-Note:
-> The technical Working Groups are open to all.
->
-> The Strategy WG and the <i>[Organization_Abbreviation]</i> Steering Committee are open to General and Strategic members.
->
-> The <i>[Organization_Abbreviation]</i> Steering Committee approves by up or down vote the final specifications. 
->
-> - Ensures alignment between working groups.
->
-> - Determines the allocation of resources
->
-> Roles can be found on the next page
+<img width="298" alt="organigram" src="https://user-images.githubusercontent.com/3258579/171531827-ea7d3d4e-4490-4995-b0f3-41c0066a7ca2.png">
 
 
 #### Steering Committee
 
 * One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
-1. The Steering Committee is comprised of a representative of the founding members of the `[Organization_Abbreviation]` and has a single primary member representing each company.
+1. The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
 2. Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 3. Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-4. A meeting of the Steering Committee makers presumably has a quorum.
+4. A meeting of the Steering Committee makers should has a quorum of `X` Steering Committee participants.
 5. Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
 6. The votes are taken only by the appointed representatives of the Steering Committee.
 7. Minutes of the meeting are taken to record the votes and their outcomes. 
@@ -264,10 +203,10 @@ Note:
  Note:
 > Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
 
-#### Communications Team 
+#### Marketing Committee Team
 
-* Each Steering Member will be represented in the `[Organization_Abbreviation]` Communication Team by one representative only. 
-* The Communication Team typically focuses on the following:
+* Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
+* The Marketing Team 1 typically focuses on the following:
   * manages internal and external communications;
   * is responsible for press releases;
   * maintenance of the website;
@@ -275,35 +214,32 @@ Note:
   * manages the communication strategy.
 
 #### Working Groups (WG)
+* Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages):
 
-* Working Groups (WGs) that are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages):
+## Organization Roles
+* [Participants](#participants)
+* [Editors](#editors)
+* [Maintainer(s)](#maintainers)
 
-  * Working Group I, (WG_1) and
-  * Working Group II, (WG_2)
-
-## What to Expect from Organization Roles
-* [from Members](#from-participants)
-* [from Editors](#from-editors)
-* [from Maintainer(s)](#from-maintainers)
-
-### From Participants
+### Participants
 Note:
 > A Participant is any individual creating content or commenting on an issue or pull request.
 
-* Participants MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
+* Participants MUST read the Project documentation (e.g.: contribution guidelines, README, and Release Planning file) before attenting to submit an Issue or Pull Request
 * Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
 
-*Note: from `[Organization_Abbreviation]` Scope & Governance*
+*Note: from Scope & Governance*
+
 ```
 1.3. Participants. “Participants” are those that have made Contributions to the Working Group 
 subject to the Community Specification License.
 ```
 
-### From Editors
+### Editors
 Note:
 > An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
 
-*Note: from `[Organization_Abbreviation]` Scope & Governance*
+*Note: from Scope & Governance*
 
 ```
 1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
@@ -312,9 +248,9 @@ Each Working Group will designate an Editor or Editors for that Working Group.
 A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
 ```
 
-### From Maintainers
+### Maintainers
 
-Note: from `[Organization_Abbreviation]` Scope & Governance
+Note: from Scope & Governance
 ```
 1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
 
@@ -344,10 +280,10 @@ Note: from `[Organization_Abbreviation]` Scope & Governance
   <thead>
     <tr>
         <th></th>
-        <th>Strategic</th>
+        <th>Steering</th>
         <th>General</th>
         <th>Associte</th>
-        <th><i>[Organization_Abbreviation]</i> Community</th>
+        <th>Community</th>
     </tr>
   </thead>
   <tbody>
@@ -366,210 +302,136 @@ Note: from `[Organization_Abbreviation]` Scope & Governance
     </tr>
     <tr>
         <td>Eligible to participate in the Steering Committee</td>
-        <td>Yes</td>
-        <td>Based on merit</td>
-        <td>Based on merit</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Eligible for a Working Group Maintainer position</td>
-        <td>Yes</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Eligible for a Working Group Co-Maintainer position</td>
-        <td>Yes</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td colspan="7"><strong>Participation</strong></td>
+        <td colspan="5"><strong>Participation</strong></td>
     </tr>
-    <tr>
-        <td>Use the output of working groups</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Stay up-to-date on <i>[Organization_Abbreviation]</i> progress & innovations</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>	  
     <tr>
         <td>Eligible to join a Working Group</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Eligible to join the Steering Committee</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-        <td>Eligible to join the Communications Team</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>Eligible to join the Marketing Team</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td colspan="8"><strong>Contribution</strong></td>
     </tr>
     <tr>
-        <td>Contribute ideas to the member alliance</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-    </tr>
-    <tr>
-        <td>Access in-depth information on working groups</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td>Contribute to working groups</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td>Influence working group solutions</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+        <td>Contribute to Working Groups</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Propose new working groups</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-        <td>Influence working group outcomes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>	  
-    <tr>
         <td>May propose a Work Package</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>   
     <tr>
         <td>Counted towards minimum support quorum of a Work Package</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td colspan="5"><strong>Voting</strong></td>
     </tr>
     <tr>
-        <td>Approval of Publications, Working Group formation and <i>[Organization_Abbreviation]</i> governance</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
-        <td>No</td>
+        <td>Approval of Publications, Working Group formation and Governance</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Vote in a Supermajority vote</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-	<td>Vote in an informal technical vote</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+	      <td>Vote in an informal technical vote</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
-    <tr>
-        <td>Participate in consensus polls (R&A)</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td colspan="5"><strong>Access to Documentation</strong></td>
-    </tr>
-    <tr>
-        <td>Access to common MS Teams areas</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td>Access to restricted MS Teams areas and private GitHub repositories</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>  
-    <tr>
         <td colspan="5"><strong>Access to Meetings</strong></td>
     </tr>
     <tr>
         <td>Attend Work Group meetings (F2F, conference calls, interim)</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-    </tr>
-    <tr>
-        <td>Attend special events | seminars</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>TBD</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td colspan="5"><strong>Process Administration</strong></td>
     </tr>
     <tr>
         <td>May propose the creation of a Working Group</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>May appeal on technical issues</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>May appeal on procedural issues</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
   </tbody>
 </table>
