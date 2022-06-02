@@ -2,20 +2,20 @@
 This document provides process guidelines based on best practice and practical implementations.
 
 ### Introducion
-This process 
+This section provides a practical step by step guide on how to customized your Organization Process document in [`Organization Operational Process`](./Organization_Operational_Process.md)
 
-**[`Organization Operational Process`](./Organization_Operational_Process.md)**
+We recommend to follow up the following steps: 
+* The preparation and approval of these steps are important to create a culture of openness, collaboration and a sense of forming a community.
 
-We recommend the following steps when setting up an Standards Organization:
+[Governance](./Organization_Operational_Process.md#governance)
 
-* **[Governance](./Organization_Operational_Process.md#governance)**
+> Note: Create a simple organigram of the Organization, listing:
 
-  Create a simple organigram of the Organization, listing:
   * The Technical Steering Committee, (TSC)
   * Committees Team created by the TSC
   * The Working Group(s), (WGs), and its Sub-Working Group(s), (TSC), (if any)
 
-Then complete the function and meeting cadence for the groups listed in the diagram:
+> Then, complete the function and meeting cadence for the groups listed in the diagram:
 
   * The [Technical Steering Committee](./Organization_Operational_Process.md#steering-committee):
     * it is formed by the [Steering Members](). 
@@ -35,9 +35,11 @@ Then complete the function and meeting cadence for the groups listed in the diag
   * [Working and Sub Working Groups]()
     * Companies that want to participate in the Working Group(s) need to be a member of the Organization
       * Apply [here]() for Membership
-      * These are the [Membership Benefits](./Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership level.
+      * [Membership Benefits](./Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership type.
 
-* **[[Organization_Name] Roles](./Organization_Operational_Process.md#organizataion-roles)**
+> Next steip is to define the Organization roles
+
+* **[Organization Roles](./Organization_Operational_Process.md#organizataion-roles)**
 
 This section provides a description of what tasks and behaviour is expected by the different roles in the organization: 
   
