@@ -1,5 +1,6 @@
 ## Organization Operational Document
 This document is a template that needs to be customized for each Organization.
+The document is written 
 The scope of the document is to provide a set of practical rules that you can adapt and evolve as you see fit. 
 
 ## Terminology and Conventions

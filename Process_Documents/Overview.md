@@ -2,10 +2,10 @@
 This document provides process guidelines based on best practice and practical implementations.
 
 ### Introducion
-This section provides a practical step by step guide on how to customized your Organization Process document in [`Organization Operational Process`](./Organization_Operational_Process.md)
+This section provides a practical step by step guide on how to customize your Organization Process template in the [`Organization Operational Process`](./Organization_Operational_Process.md)
 
-We recommend to follow up the following steps: 
-* The preparation and approval of these steps are important to create a culture of openness, collaboration and a sense of forming a community.
+* The preparation and approval of the Organization process is important to create a culture of openness, collaboration and a sense of forming a community.
+* We recommend to follow up the following steps:
 
 [Governance](./Organization_Operational_Process.md#governance)
 
