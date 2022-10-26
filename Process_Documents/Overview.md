@@ -2,12 +2,12 @@
 This document provides process guidelines based on best practice and practical implementations.
 
 ### Introducion
-This section provides a practical step by step guide on how to customize your Organization Process template in the [`Organization Operational Process`](./Organization_Operational_Process.md)
+This section provides a practical step by step guide on how to customize your Organization Process template in the [`Organization Operational Process`](Organization_Operational_Process.md)
 
 * The preparation and approval of the Organization process is important to create a culture of openness, collaboration and a sense of forming a community.
 * We recommend to follow up the following steps:
 
-[Governance](./Organization_Operational_Process.md#governance)
+[Governance](/Organization_Operational_Process.md#governance)
 
 > Note: Create a simple organigram of the Organization, listing:
 
@@ -17,12 +17,12 @@ This section provides a practical step by step guide on how to customize your Or
 
 > Then, complete the function and meeting cadence for the groups listed in the diagram:
 
-  * The [Technical Steering Committee](./Organization_Operational_Process.md#steering-committee):
+  * The [Technical Steering Committee](./Organization_Operational_Process.md#technical-steering-committee):
     * it is formed by the [Steering Members](). 
     * it meets `week, biweekly, monthly` 
     * it deals with the day to day activities to the Organizaton.
   
-  * The [Marketing Team](./Organization_Operational_Process.md#marketing-team)
+  * The [Marketing Team](Organization_Operational_Process#marketing-team)
     * it is also formed by representatives from the Steering Members, 
     * it meets once a `week, biweekly, monthly` 
     * it discuss Marketing related topics.
@@ -35,11 +35,11 @@ This section provides a practical step by step guide on how to customize your Or
   * [Working and Sub Working Groups]()
     * Companies that want to participate in the Working Group(s) need to be a member of the Organization
       * Apply [here]() for Membership
-      * [Membership Benefits](./Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership type.
+      * [Membership Benefits](/Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership type.
 
 > Next steip is to define the Organization roles
 
-* **[Organization Roles](./Organization_Operational_Process.md#organizataion-roles)**
+* **[Organization Roles](./Organization_Operational_Process.md#organization-roles)**
 
 This section provides a description of what tasks and behaviour is expected by the different roles in the organization: 
   

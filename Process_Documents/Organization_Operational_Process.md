@@ -224,7 +224,7 @@ Note: please update the placeholders marked as `X` with your own input.
  Note:
 > Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
 
-#### Marketing Committee Team
+#### Marketing Team
 
 ```
 Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
