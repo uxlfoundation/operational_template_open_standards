@@ -35,7 +35,7 @@ This section provides a practical step by step guide on how to customize your Or
   * [Working and Sub Working Groups]()
     * Companies that want to participate in the Working Group(s) need to be a member of the Organization
       * Apply [here]() for Membership
-      * [Membership Benefits](Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership type.
+      * [Membership Benefits](/Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership type.
 
 > Next steip is to define the Organization roles
 
