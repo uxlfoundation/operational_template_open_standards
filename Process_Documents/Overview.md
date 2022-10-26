@@ -39,7 +39,7 @@ This section provides a practical step by step guide on how to customize your Or
 
 > Next steip is to define the Organization roles
 
-* **[Organization Roles](./Organization_Operational_Process.md#organizataion-roles)**
+* **[Organization Roles](./Organization_Operational_Process.md#organization-roles)**
 
 This section provides a description of what tasks and behaviour is expected by the different roles in the organization: 
   
