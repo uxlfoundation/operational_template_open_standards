@@ -17,12 +17,12 @@ This section provides a practical step by step guide on how to customize your Or
 
 > Then, complete the function and meeting cadence for the groups listed in the diagram:
 
-  * The [Technical Steering Committee](./Organization_Operational_Process.md#steering-committee):
+  * The [Technical Steering Committee](./Organization_Operational_Process.md#technical-steering-committee):
     * it is formed by the [Steering Members](). 
     * it meets `week, biweekly, monthly` 
     * it deals with the day to day activities to the Organizaton.
   
-  * The [Marketing Team](./Organization_Operational_Process.md#marketing-team)
+  * The [Marketing Team](Organization_Operational_Process#marketing-team)
     * it is also formed by representatives from the Steering Members, 
     * it meets once a `week, biweekly, monthly` 
     * it discuss Marketing related topics.
