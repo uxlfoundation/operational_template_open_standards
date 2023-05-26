@@ -1,7 +1,7 @@
 ## Scope
 This document provides process guidelines based on best practice and practical implementations.
 
-### Introducion
+### Introduction
 This section provides a practical step by step guide on how to customize your Organization Process template in the [`Organization Operational Process`](Organization_Operational_Process.md)
 
 * The preparation and approval of the Organization process is important to create a culture of openness, collaboration and a sense of forming a community.
@@ -20,7 +20,7 @@ This section provides a practical step by step guide on how to customize your Or
   * The [Technical Steering Committee](./Organization_Operational_Process.md#technical-steering-committee):
     * it is formed by the [Steering Members](). 
     * it meets `week, biweekly, monthly` 
-    * it deals with the day to day activities to the Organizaton.
+    * it deals with the day to day activities to the Organization.
   
   * The [Marketing Team](Organization_Operational_Process#marketing-team)
     * it is also formed by representatives from the Steering Members, 
@@ -37,7 +37,7 @@ This section provides a practical step by step guide on how to customize your Or
       * Apply [here]() for Membership
       * [Membership Benefits](/Organization_Operational_Process#membership-benefits). This section provides a detailed list of benefits for each Membership type.
 
-> Next steip is to define the Organization roles
+> Next step is to define the Organization roles
 
 * **[Organization Roles](./Organization_Operational_Process.md#organization-roles)**
 
@@ -66,7 +66,7 @@ The section provides a **[License statement](./Rules_of_Engagement.md#technical-
 The organization publishes its deliverables: technical documents and, or software code, following **[Semantic Versioning](./Rules_of_Engagement.md#semantic-versioning)**, which provides a simple criteria to decide the version - Vx.y.z - of content to be released by the Working Groups.
 
 
-* **[Copyright and Licensing Best Practise](./Rules_of_Engagement.md#copyright)**
+* **[Copyright and Licensing Best Practice](./Rules_of_Engagement.md#copyright)**
 These rules are guidelines on how to write simple and easy to maintain **[Copyright](./Rules_of_Engagement.md#copyright)** statements. As well as how handle **[Software Licenses](./Rules_of_Engagement.md#licenses)** in the repositories of the organization. 
 
 * **[Software License Policy](./Rules_of_Engagement.md#software-license-policy)**
