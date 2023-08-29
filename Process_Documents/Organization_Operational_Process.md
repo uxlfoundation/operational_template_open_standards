@@ -325,7 +325,7 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <th></th>
         <th>Steering</th>
         <th>General</th>
-        <th>Associte</th>
+        <th>Associate</th>
         <th>Community</th>
     </tr>
   </thead>
