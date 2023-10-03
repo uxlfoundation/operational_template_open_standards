@@ -1,14 +1,9 @@
 ## Organization Operational Document
 
-The scope of the document is to provide a set of practical rules that you can adapt and evolve as you see fit. 
-
-The document is a template that needs to be customized for each Organization.
-It section contains notes that should be deleted once the customization is completed.
-
 ## Terminology and Conventions
 
 ### Language
-The default language for writting documentation is the American English, English (United States).
+The default language for writing documentation is American English, English (United States).
 
 ### Conventions
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
@@ -17,14 +12,12 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
 
 **MUST**:
 This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
-
 	
 **SHOULD**:
 This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
 
 **MAY**:
 This word, or the adjective "OPTIONAL", mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that  it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which  does not include the option (except, of course, for the feature the  option provides.)
-
 
 
 ### Definitions
@@ -52,18 +45,18 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally, in  Issues are tracked in Github.</td>
+	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
     </tr>
     <tr>
 	<td><strong>Maintainer</strong></td>
 	<td>A member of the Organization that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
-  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
-  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the Organization, or written documentation that made the Organization more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
-  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed but members and approve by the working group following consensus rules. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
+  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group or those contributors who lead an open source project. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
+  A Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
+  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed by members and approved. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
     </tr>
     <tr>
 	<td><strong>Member(s)</strong></td>
-	<td>A person that belongs to a company that has signed the Organization Membership Application, Project and Working Group Charter(s)
+	<td>A person that belongs to a company that has signed the Membership Agreement, Project and Working Group Charter(s)
   </td>
     </tr>	  
     <tr>
@@ -72,7 +65,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Participant</strong></td>
-	<td>A Participant is any individual creating content or commenting on an Issue or Pull Request.</td>
+	<td>A Participant is any individual creating content, code or commenting on an Issue or Pull Request.</td>
     </tr>
     <tr>
 	<td><strong>Project Charter</strong></td>
@@ -84,7 +77,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Release</strong></td>
-	<td>It is the distribution of the final version of a document or application.</td>
+	<td>It is the distribution of the final version of a specification or software project</td>
     </tr>	  
     <tr>
 	<td><strong>Review & Approval</strong></td>
@@ -104,16 +97,16 @@ Every term used in the document should be defined in this section.
     </tr>	  
     <tr>
 	<td><strong>Steering Committee</strong></td>
-	<td>A committee that decides on the priorities or order of business of the Organization</i>. </td>
+	<td>A committee that decides on the priorities or order of business of the Organization </td>
+    </tr>
+    <tr>
+	<td><strong>Supermajority Vote</strong></td>
+	<td>an affirmative vote of no less than 3/4 of Steering Members or Working Group Participants </td>
     </tr>
     <tr>
 	<td><strong>Working Group</strong></td>
-	<td>A group of expertes working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
+	<td>A group of experts working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
     </tr>
-    <tr>
-	<td><strong>Working Group Maintainer</strong></td>
-	<td>A person selected by the Working Group which primary role is to facilitate consensus-building among the group members.</td>
-    </tr>	  
     <tr>
 	<td><strong>Working Group Charter</strong></td>
 	<td>A document that contains the scope, objectives and goals of a particular group. </td>
@@ -143,7 +136,7 @@ When people gather to discuss Technical Requirements they tend to use the same t
   </tr>	
   <tr>
     <td>IPR</td>
-    <td>Intelectual Property Rights</td>
+    <td>Intellectual Property Rights</td>
   </tr>	
   <tr>
     <td>WG</td>
@@ -182,15 +175,11 @@ When people gather to discuss Technical Requirements they tend to use the same t
 
 ### Membership Levels
 
-```
-Note: Provide a list of Membership Levels:
-```
-
 The Organization Membership Levels are:
 
-* Strategic
+* Steering
 * General
-* Associate
+* Contributor
 
 See [Membership Benefits](#membership-benefits)
 
@@ -209,14 +198,11 @@ Note: Replace this example diagram with your own Organization organigram. Here y
 
 One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
-```
-Note: please update the placeholders marked as `X` with your own input.
-```
-
 * The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
 * Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 * Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should has a quorum of `X` Steering Committee participants.
+* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
+* The Steering Committee will endeavor to make all decisions by consensus. Where the Steering Committee cannot reach consensus with respect to a particular decision, the Steering Committee will make that decision by a Supermajority Vote.
 * Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
 * The votes are taken only by the appointed representatives of the Steering Committee.
 * Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
@@ -224,21 +210,16 @@ Note: please update the placeholders marked as `X` with your own input.
  Note:
 > Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
 
-#### Marketing Team
+#### Marketing Committee
 
-```
-Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
-In this section we provide a template listing different Marketing responsibilities. 
-Please update this section as you see fit.
-```
-
-* Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
-* The Marketing Team 1 typically focuses on the following:
-  * manages internal and external communications;
-  * is responsible for press releases;
-  * maintenance of the website;
-  * coordinates participation at congresses; and
-  * manages the communication strategy.
+* Each Steering Member will be represented in the Marketing Committee Team by one representative only.
+* The Steering Committee will appoint the chairperson for the Marketing Committee
+* The Marketing Team typically focuses on the following:
+  * Manages internal and external communications.
+  * Responsible for press releases.
+  * Maintains the website.
+  * Coordinates participation at events.
+  * Manages the communication strategy.
 
 #### Working Groups (WG)
 ```
@@ -247,9 +228,8 @@ This section should be updated each time that a new Working or Sub-Working Group
 ```
 * Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
 * The Organization has the following Working Groups:
-  * Working Group Name 1
-  * Working Groupo Name 2
-    * Sub-Working Group Name 1
+  * Specification Working Group
+  * Open Source Working Group
 
 ## Organization Roles
 
