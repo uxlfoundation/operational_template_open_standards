@@ -1,14 +1,9 @@
 ## Organization Operational Document
 
-The scope of the document is to provide a set of practical rules that you can adapt and evolve as you see fit. 
-
-The document is a template that needs to be customized for each Organization.
-It section contains notes that should be deleted once the customization is completed.
-
 ## Terminology and Conventions
 
 ### Language
-The default language for writting documentation is the American English, English (United States).
+The default language for writing documentation is American English, English (United States).
 
 ### Conventions
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
@@ -17,14 +12,12 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
 
 **MUST**:
 This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
-
 	
 **SHOULD**:
 This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
 
 **MAY**:
 This word, or the adjective "OPTIONAL", mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that  it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which  does not include the option (except, of course, for the feature the  option provides.)
-
 
 
 ### Definitions
@@ -52,18 +45,18 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally, in  Issues are tracked in Github.</td>
+	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
     </tr>
     <tr>
 	<td><strong>Maintainer</strong></td>
 	<td>A member of the Organization that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
-  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
-  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the Organization, or written documentation that made the Organization more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
-  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed but members and approve by the working group following consensus rules. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
+  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group or those contributors who lead an open source project. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
+  A Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
+  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed by members and approved. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
     </tr>
     <tr>
 	<td><strong>Member(s)</strong></td>
-	<td>A person that belongs to a company that has signed the Organization Membership Application, Project and Working Group Charter(s)
+	<td>A person that belongs to a company that has signed the Membership Agreement, Project and Working Group Charter(s)
   </td>
     </tr>	  
     <tr>
@@ -72,7 +65,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Participant</strong></td>
-	<td>A Participant is any individual creating content or commenting on an Issue or Pull Request.</td>
+	<td>A Participant is any individual creating content, code or commenting on an Issue or Pull Request.</td>
     </tr>
     <tr>
 	<td><strong>Project Charter</strong></td>
@@ -84,7 +77,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Release</strong></td>
-	<td>It is the distribution of the final version of a document or application.</td>
+	<td>It is the distribution of the final version of a specification or software project</td>
     </tr>	  
     <tr>
 	<td><strong>Review & Approval</strong></td>
@@ -104,16 +97,16 @@ Every term used in the document should be defined in this section.
     </tr>	  
     <tr>
 	<td><strong>Steering Committee</strong></td>
-	<td>A committee that decides on the priorities or order of business of the Organization</i>. </td>
+	<td>A committee that decides on the priorities or order of business of the Organization </td>
+    </tr>
+    <tr>
+	<td><strong>Supermajority Vote</strong></td>
+	<td>an affirmative vote of no less than 3/4 of Steering Members or Working Group Participants </td>
     </tr>
     <tr>
 	<td><strong>Working Group</strong></td>
-	<td>A group of expertes working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
+	<td>A group of experts working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
     </tr>
-    <tr>
-	<td><strong>Working Group Maintainer</strong></td>
-	<td>A person selected by the Working Group which primary role is to facilitate consensus-building among the group members.</td>
-    </tr>	  
     <tr>
 	<td><strong>Working Group Charter</strong></td>
 	<td>A document that contains the scope, objectives and goals of a particular group. </td>
@@ -143,7 +136,7 @@ When people gather to discuss Technical Requirements they tend to use the same t
   </tr>	
   <tr>
     <td>IPR</td>
-    <td>Intelectual Property Rights</td>
+    <td>Intellectual Property Rights</td>
   </tr>	
   <tr>
     <td>WG</td>
@@ -182,15 +175,11 @@ When people gather to discuss Technical Requirements they tend to use the same t
 
 ### Membership Levels
 
-```
-Note: Provide a list of Membership Levels:
-```
-
 The Organization Membership Levels are:
 
-* Strategic
+* Steering
 * General
-* Associate
+* Contributor
 
 See [Membership Benefits](#membership-benefits)
 
@@ -209,14 +198,11 @@ Note: Replace this example diagram with your own Organization organigram. Here y
 
 One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
-```
-Note: please update the placeholders marked as `X` with your own input.
-```
-
 * The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
 * Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 * Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should has a quorum of `X` Steering Committee participants.
+* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
+* The Steering Committee will endeavor to make all decisions by consensus. Where the Steering Committee cannot reach consensus with respect to a particular decision, the Steering Committee will make that decision by a Supermajority Vote.
 * Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
 * The votes are taken only by the appointed representatives of the Steering Committee.
 * Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
@@ -224,21 +210,16 @@ Note: please update the placeholders marked as `X` with your own input.
  Note:
 > Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
 
-#### Marketing Team
+#### Marketing Committee
 
-```
-Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
-In this section we provide a template listing different Marketing responsibilities. 
-Please update this section as you see fit.
-```
-
-* Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
-* The Marketing Team 1 typically focuses on the following:
-  * manages internal and external communications;
-  * is responsible for press releases;
-  * maintenance of the website;
-  * coordinates participation at congresses; and
-  * manages the communication strategy.
+* Each Steering Member will be represented in the Marketing Committee Team by one representative only.
+* The Steering Committee will appoint the chairperson for the Marketing Committee
+* The Marketing Team typically focuses on the following:
+  * Manages internal and external communications.
+  * Responsible for press releases.
+  * Maintains the website.
+  * Coordinates participation at events.
+  * Manages the communication strategy.
 
 #### Working Groups (WG)
 ```
@@ -247,9 +228,8 @@ This section should be updated each time that a new Working or Sub-Working Group
 ```
 * Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
 * The Organization has the following Working Groups:
-  * Working Group Name 1
-  * Working Groupo Name 2
-    * Sub-Working Group Name 1
+  * Specification Working Group
+  * Open Source Working Group
 
 ## Organization Roles
 
@@ -291,8 +271,7 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 >Note: from [Scope & Governance]() Document
 
 ```
-1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
-
+1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) and open source projects developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
 ```
 
 * In performing their tasks, Working Group Maintainers SHALL maintain strict impartiality and act in the interest of the Organization.
@@ -314,10 +293,6 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 
 ## Membership Benefits
 
-```
-Note: Please update the Membership Benefits table below based on your Organization views. Alternatively, this table could be moved to the Organization website.
-```
-
 <table>
   <caption>Membership Benefits</caption>
   <thead>
@@ -325,20 +300,18 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <th></th>
         <th>Steering</th>
         <th>General</th>
-        <th>Associate</th>
-        <th>Community</th>
+        <th>Contributor</th>
     </tr>
   </thead>
   <tbody>
-      <tr>
+    <tr>
         <td colspan="5"><strong>Pricing</strong></td>
     </tr>
     <tr>
         <td>Price</td>
-        <td>$XXX</td>
-        <td>$XXX</td>
-        <td>$XXX/td>
-        <td>$0K</td>
+        <td>$20,000</td>
+        <td>$5,000</td>
+        <td>$0/td>
     </tr>
     <tr>
         <td colspan="5"><strong>Leadership</strong></td>
@@ -348,42 +321,15 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
-        <td>Eligible for a Working Group Maintainer position</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Eligible for a Working Group Co-Maintainer position</td>
-        <td></td>
+        <td>Eligible to vote in Working Group meetings</td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td colspan="5"><strong>Participation</strong></td>
-    </tr>
-    <tr>
-        <td>Eligible to join a Working Group</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Eligible to join the Steering Committee</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Eligible to join the Marketing Team</td>
-        <td></td>
+        <td>Eligible to observe Working Group meetings</td>
         <td></td>
         <td></td>
         <td></td>
@@ -396,11 +342,9 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>Propose new working groups</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -410,11 +354,9 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>   
     <tr>
         <td>Counted towards minimum support quorum of a Work Package</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -427,18 +369,15 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>Vote in a Supermajority vote</td>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
-	      <td>Vote in an informal technical vote</td>
-        <td></td>
+       <td>Vote in an informal technical vote</td>
         <td></td>
         <td></td>
         <td></td>
@@ -447,7 +386,6 @@ Note: Please update the Membership Benefits table below based on your Organizati
     </tr>
     <tr>
         <td>Attend Work Group meetings (F2F, conference calls, interim)</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -460,18 +398,15 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>May appeal on technical issues</td>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>May appeal on procedural issues</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -485,7 +420,7 @@ Note: Please update the Membership Benefits table below based on your Organizati
 Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.
 ```
 * WGs are encouraged to schedule regular conference calls.
-* The Meetings MUST be announced at least, 7 days in advance for conference calls, and 1 month for face to face meetings.
+* The Meetings MUST be announced at least 7 days in advance for conference calls, and 1 month for face to face meetings.
 * All the Organization members are contractually bound to the IPR policy under terms of the Membership Application and these IPR Guidelines must be followed.
 * Meetings SHALL have an antitrust statement and an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
 * A meeting attendee list MUST be produced for each meeting. This is necessary to determine which members can vote in a Supermajority vote.
@@ -539,7 +474,7 @@ Inspired by American National Standards Institute’s (ANSI) Essential Requireme
 3.6. Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
 ```
 
-As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintaniers need to ensure efficient and effective decision-making:
+As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintainers need to ensure efficient and effective decision-making:
 * The decision making process in WGs is intended to be as inclusive as possible. 
 * WGs shall attempt to use consensus to make decisions. 
 * If consensus cannot be reached, voting mechanisms MAY be used. 
@@ -598,12 +533,7 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 
 ### Voting on Technical Issues
 
-Note: Supermajority Vote
-
-```
-Note: Define Supermajority
-```
-*	Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
+* Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
 * Members eligible to vote, SHALL only be entitled to one vote each.
 * Each member MAY cast its vote as often as it wishes, and the last vote it casts counts.
 * Voting MAY be performed electronically.
@@ -622,9 +552,9 @@ Note: Define Supermajority
 	<figcaption>Review & Approval</figcaption>
 </figure>
 
-In the Standards Development Organizations (SDOs) the approval or rejection of a contribution follows a democratic process; **the majority**. This differs from an Open Source organization that normally follows a meritocratic process where the Maintainer decides what to accept of reject. If a person doesn’t like the decision that her contribution is rejected, then she can “fork” the project.
+When developing a standard the approval or rejection of a contribution follows a democratic process; **the majority**. This differs from open source projects that normally follows a meritocratic process where the Maintainer decides what to accept of reject.
 
-The goal for an SDO is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote, see [Seeking Consensus](#seeking-consensus).
+The goal for standards development is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote, see [Seeking Consensus](#seeking-consensus).
 
 The Review & Approval process implies that all the contributions need to be accepted by the Working Group.
 
@@ -682,11 +612,11 @@ Note: from `[Organization_Abbreviation]` Scope & Governance
 
 4.4. Publication and Submission. Upon the designation of a Draft Specification as an Approved Specification by the Steering Committee, the Maintainer will publish the Approved Specification in a manner agreed upon by the Steering Committee (i.e., Working Group Participant only location, publicly available location, Working Group maintained website, Working Group member website, etc.). The publication of an Approved Specification in a publicly accessible manner must include the terms under which the Approved Specification is being made available.
 
-4.5. Submissions to Standards Bodies. The Governing Board of the LF Energy Foundation (the “Governing Board”) may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Governing Board. Upon an affirmative vote of the Governing Board regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Governing Board, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Governing Board. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
+4.5. Submissions to Standards Bodies. The Steering Committee of the UXL Foundation may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Steering Committee. Upon an affirmative vote of the Steering Committee regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Steering Committee, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Steering Committee. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
 
-4.6 Steering Committee.  The Steering Committee is responsible for (a) approval of any Draft Specification as an Approved Specification and (b) alignment among each of the Working Groups of the [Organization_Name] project.  
+4.6 Steering Committee.  The Steering Committee is responsible for (a) approval of any Draft Specification as an Approved Specification and (b) alignment among each of the Working Groups of the UXL Foundation project.  
 
-4.7.  Voting of the Steering Committee and Strategy Committee.  In any vote or Approval before the Steering Committee or Strategy Committee the affirmative vote of at least 50% of the voting members of the Steering Committee or Strategy Committee. The voting members of the Steering Committee and Strategy Committee consist of one appointee from each General Member and each Strategic Member of the LF Energy Foundation of the Linux Foundation.
+4.7.  Voting of the Steering Committee.  In any vote or Approval before the Steering Committee the affirmative vote of at least 75% of the voting members of the Steering Committee. The voting members of the Steering Committee consist of one appointee from each Steering Member.
 ```
 <figure>
 	<img src="images/life-cycle.svg" alt="Specifications Life Cycle">
@@ -798,7 +728,7 @@ It is suggested to follow the principles of [Trunk Based Development](https://tr
   <tbody>
     <tr>
       <td>Participants</td>
-      <td><i>TRIAGE</i> - Can read and clone this repository. Can also manage issues and pull requests.</td>
+      <td><i>TRIAGE</i> - Can read and clone this repository. Can also create issues and pull requests.</td>
    </tr>
     <tr>
       <td>Editors</td>
@@ -859,7 +789,7 @@ There are at least three different options to publish content using GitHub:
   </tbody>
 </table>
 
-## Intelectual Property Rights
+## Intellectual Property Rights
 
 ### Copyright
 This section provides a recommendation based on the best practice implemented by other projects.
@@ -868,11 +798,11 @@ Most LF project communities do not require or recommend that every contributor i
 
 Instead, many LF Project communities recommend using a more general statement in a form similar to the following: (choose one)
 
-* `Copyright The [Organization_Name] Authors.`
-* `Copyright The [Organization_Name] Contributors.`
-* `Copyright Contributors to the XYZ project.`
+* `Copyright The UXL Foundation Authors.`
+* `Copyright The UXL Foundation Contributors.`
+* `Copyright Contributors to the UXL Foundation project.`
 
-These statements are intended to communicate the followig:
+These statements are intended to communicate the following:
 
 * the work is copyrighted;
 * the contributors of the code licensed it, but retain ownership of their copyrights; and
@@ -910,7 +840,7 @@ Ideally, the project SHOULD communicate the software license information via thr
 * Inside of each code file created by the group
 
 #### Statement in README File
-Insert in the README file the MIT License:
+Insert in the README file the Apache 2.0 License:
 
 ```
 ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
@@ -923,7 +853,7 @@ The README file will display:
 
 In addition, it is recommended to include a plain text statement of the license in the README file, for accessibility purposes as well as enabling parsing by automated tooling. This can be done by including a "License" section with:
 
-* This project is licensed under the MIT license.
+* This project is licensed under the Apache 2.0 license.
 
 #### License File in the Repository
 Insert in the repository a file called ```License.txt```. 
@@ -957,10 +887,10 @@ This policy is intended to assist `[Organization_Name]` Technical Working Groups
 #### Recommended SafeGuards
 **1. Escalation Path**
 
-  - Any question about licensing should be resolved by the Working Group (WG), if the WG cannot resolve it, then the question can be sent to the Technical Steering Committee (TSC)
+  - Any question about licensing should be resolved by the Working Group (WG), if the WG cannot resolve it, then the question can be sent to the Steering Committee
       - LF doesn’t provide legal advice or comments about license compatibility (unless LF identifies some clear incompatibilities)
       - The Steering members may need to involve their Legal Counsel to make a license decision
-      - Only the TSC can decide if a component created by the Project can be delivered under a different license than the Project License
+      - Only the Steering Committee can decide if a component created by the Project can be delivered under a different license than the Project License
 
 **2. Linked Libraries & 3 Party Software**
 
@@ -985,7 +915,7 @@ In projects where the main deliverables are technical documents, each document M
 The legal disclaimer to insert in each project document SHOULD be:
 
 ```
-© `[Organization_Abbreviation]` 2022, All rights reserved.
+© `UXL Foundation` YEAR, All rights reserved.
 
 “THESE MATERIALS ARE PROVIDED “AS IS.”  The parties expressly disclaim any warranties 
 (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, 
