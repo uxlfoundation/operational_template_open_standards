@@ -12,7 +12,7 @@
 
 ### General Responsibilities
 
-- [ ] Read, understand and follow the UXL processes as defined in the UXL Rules of Engagement, and ensure that all rules are 
+- [ ] Read, understand and follow the UXL processes as defined by the UXL Foundation, and ensure that all rules are 
 followed. Where there is doubt, seek advice from the Steering Committee by contacting the chairperson.
 - [ ] Read, understand and follow any other related UXL procedures and guidelines.
 - [ ] Familiarize themselves with IPR and Anti-Trust laws.
@@ -20,7 +20,6 @@ followed. Where there is doubt, seek advice from the Steering Committee by conta
 - [ ] Work closely with the officers of the parent group to ensure the integrated approach required for UXL is achieved. 
 - [ ] Inform the parent group if the work of the group has been completed and recommend closure of the group.
 - [ ] Interact with other groups as may be necessary to fulfil the group's own or another group's, charter and work packages.
-- [ ] Interact with external fora (consistent with the liaison process) as necessary and report all interaction with external fora to the parent group. 
 - [ ] At all times act fully impartially in conducting the group's mandate and be prepared to confidentially work with a group member if they wish to express any concerns in private.
 - [ ] Support, promote and keep updated the work packages as appropriate.
 - [ ] Support the parent group with the responsibilities delegated. 
