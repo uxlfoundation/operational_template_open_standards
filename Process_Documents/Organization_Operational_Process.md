@@ -22,12 +22,6 @@ This word, or the adjective "OPTIONAL", mean that an item is truly optional.  On
 
 ### Definitions
 
-```
-Note: To Be Deleted
-
-Every term used in the document should be defined in this section.
-```
-
 <table>
   <caption>Definitions</caption>
   <tbody>
@@ -101,7 +95,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Supermajority Vote</strong></td>
-	<td>an affirmative vote of no less than 3/4 of Steering Members or Working Group Participants </td>
+	<td>an affirmative vote of no less than 3/4 eligible members</td>
     </tr>
     <tr>
 	<td><strong>Working Group</strong></td>
@@ -185,20 +179,25 @@ See [Membership Benefits](#membership-benefits)
 
 ### Organization Structure
 
-```
-Note: Replace this example diagram with your own Organization organigram. Here you can see how some Groups add Sub-Working Groups pending from the Working Groups or Committee Teams pending from the Technical Steering Committee.
-```
+Technical Steering Committee
 
-<figure>
-	<img src="images/organigram.svg" alt="Organization Organigram">
-	<figcaption>Organization Organigram</figcaption>
-</figure>
+Marketing Committee
+
+Specification Working Group
+Open Source Working Group
+
+AI Special Interest Group
+Hardware Special Interest Group
+Image Special Interest Group
+Language Special Interest Group
+Math Special Interest Group
+
 
 #### Technical Steering Committee
 
 One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
-* The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
+* The Steering Committee is comprised of a representative of the "Steering" members of the Organization and it has a single primary member representing each company.
 * Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 * Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
 * A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
@@ -311,54 +310,48 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
         <td>Price</td>
         <td>$20,000</td>
         <td>$5,000</td>
-        <td>$0/td>
+        <td>$0</td>
     </tr>
     <tr>
         <td colspan="5"><strong>Leadership</strong></td>
     </tr>
     <tr>
         <td>Eligible to participate in the Steering Committee</td>
-        <td></td>
+        <td>Yes</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Eligible to vote in Working Group meetings</td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
         <td></td>
     </tr>
     <tr>
         <td>Eligible to observe Working Group meetings</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
     </tr>
     <tr>
         <td colspan="8"><strong>Contribution</strong></td>
     </tr>
     <tr>
         <td>Contribute to Working Groups</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
     </tr>
     <tr>
         <td>Propose new working groups</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
     </tr>
     <tr>
-        <td>May propose a Work Package</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>   
-    <tr>
         <td>Counted towards minimum support quorum of a Work Package</td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
         <td></td>
     </tr>
     <tr>
@@ -366,50 +359,23 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
     </tr>
     <tr>
         <td>Approval of Publications, Working Group formation and Governance</td>
-        <td></td>
+        <td>Yes</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Vote in a Supermajority vote</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-       <td>Vote in an informal technical vote</td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
         <td></td>
     </tr>
         <td colspan="5"><strong>Access to Meetings</strong></td>
     </tr>
     <tr>
         <td>Attend Work Group meetings (F2F, conference calls, interim)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td colspan="5"><strong>Process Administration</strong></td>
-    </tr>
-    <tr>
-        <td>May propose the creation of a Working Group</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>May appeal on technical issues</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>May appeal on procedural issues</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
     </tr>
   </tbody>
 </table>
@@ -579,13 +545,13 @@ The Review & Approval process implies that all the contributions need to be acce
     * If a sustained **objection** is received, the contribution cannot be merged, even if 3 or more contributors agreed with the contribution. 
     * If during the review period a contribution receives a **comment**, it is up to the group or maintainer to accept the comment or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
 
-## [Organization_Abbreviation] Process Flows
+## UXL Foundation Process Flows
 
 ### Work Packages
 
 <figure>
-	<img src="images/breakdown.svg" alt="[Organization_Abbreviation] Work Units">
-	<figcaption>[Organization_Abbreviation] Work Units</figcaption>
+	<img src="images/breakdown.svg" alt="UXL Foundation Work Units">
+	<figcaption>UXL Foundation Work Units</figcaption>
 </figure>
 
 
@@ -601,7 +567,7 @@ The Review & Approval process implies that all the contributions need to be acce
 
 ### Technical Specifications Life Cycle
 
-Note: from `[Organization_Abbreviation]` Scope & Governance
+Note: from `UXL Foundation` Scope & Governance
 ```
 4. Specification Development Process.
 4.1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
@@ -684,16 +650,16 @@ In this section the diagram below depictures the development phases of technical
 </table>
 
 <figure>
-	<img src="images/dev-process.svg" alt="[Organization_Abbreviation] Technical Specifications Development Phases">
-	<figcaption>[Organization_Abbreviation] Technical Specifications Development Phases</figcaption>
+	<img src="images/dev-process.svg" alt="UXL Foundation Technical Specifications Development Phases">
+	<figcaption>UXL Foundation Technical Specifications Development Phases</figcaption>
 </figure>
 
 ### GitHub Flows
 It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible. 
 
 <figure>
-	<img src="images/Git-Flow-2.svg" alt="[Organization_Abbreviation] Git Flow">
-	<figcaption>[Organization_Abbreviation] GitHub Flow</figcaption>
+	<img src="images/Git-Flow-2.svg" alt="UXL Foundation Git Flow">
+	<figcaption>UXL Foundation GitHub Flow</figcaption>
 </figure>
 
 <table>
@@ -817,7 +783,7 @@ This section provides a recommended format for easy of use, but it is not mandat
 recommended pratice.
 
 #### Reasons to Avoid Listing Copyright Holders
-These are some of the reasons why `[Organization_Abbreviation]` does not recommend trying to list every copyright holder for contributions to every file:
+These are some of the reasons why `UXL Foundation` does not recommend trying to list every copyright holder for contributions to every file:
 
 * Copyright notices are not mandatory in order for the contributor to retain ownership of their copyright.
 * Copyright notices are rarely kept up to date as documentation evolves, resulting inaccurate statements.
@@ -939,7 +905,7 @@ THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 ### Collaboration Tools
 * [Groups.io]()
 ### GitHub
-* [[Organization_Abbreviation] GitHub Training Material]()
+* [UXL Foundation GitHub Training Material]()
 * [Issue Creation](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
 * [Creation Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 * [Managing Project Boards](https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards)
