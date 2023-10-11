@@ -2,9 +2,13 @@
 
 
 [Terminology and Conventions](#terminology-and-conventions)
+
 [Governance](#governance-and-roles)
+
 [Meetings and Decision Making](#meetings-and-decision-making)
+
 [Process](process)
+
 [Intellectual Property Rights](#intellectual-property-rights)
 
 # Terminology and Conventions
