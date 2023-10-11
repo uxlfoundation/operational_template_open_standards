@@ -1,6 +1,17 @@
-## Organization Operational Document
+# Organization Operational Document
 
-## Terminology and Conventions
+
+[Terminology and Conventions](#terminology-and-conventions)
+
+[Governance](#governance-and-roles)
+
+[Meetings and Decision Making](#meetings-and-decision-making)
+
+[Process](process)
+
+[Intellectual Property Rights](#intellectual-property-rights)
+
+# Terminology and Conventions
 
 ### Language
 The default language for writing documentation is American English, English (United States).
@@ -112,12 +123,8 @@ This word, or the adjective "OPTIONAL", mean that an item is truly optional.  On
   </tbody>
 </table>
 
-```
-Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. 
+*Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.*
 
-When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.
-
-```
 
 ### Abbreviations
 
@@ -163,9 +170,7 @@ When people gather to discuss Technical Requirements they tend to use the same t
 </tbody>
 </table>
 
-## Introduction
-
-## Governance
+# Governance and Roles
 
 ### Membership Levels
 
@@ -174,121 +179,6 @@ The Organization Membership Levels are:
 * Steering
 * General
 * Contributor
-
-See [Membership Benefits](#membership-benefits)
-
-### Organization Structure
-
-Technical Steering Committee
-
-Marketing Committee
-
-Specification Working Group
-Open Source Working Group
-
-AI Special Interest Group
-Hardware Special Interest Group
-Image Special Interest Group
-Language Special Interest Group
-Math Special Interest Group
-
-
-#### Technical Steering Committee
-
-One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
-
-* The Steering Committee is comprised of a representative of the "Steering" members of the Organization and it has a single primary member representing each company.
-* Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
-* Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
-* The Steering Committee will endeavor to make all decisions by consensus. Where the Steering Committee cannot reach consensus with respect to a particular decision, the Steering Committee will make that decision by a Supermajority Vote.
-* Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
-* The votes are taken only by the appointed representatives of the Steering Committee.
-* Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
- 
- Note:
-> Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
-
-#### Marketing Committee
-
-* Each Steering Member will be represented in the Marketing Committee Team by one representative only.
-* The Steering Committee will appoint the chairperson for the Marketing Committee
-* The Marketing Team typically focuses on the following:
-  * Manages internal and external communications.
-  * Responsible for press releases.
-  * Maintains the website.
-  * Coordinates participation at events.
-  * Manages the communication strategy.
-
-#### Working Groups (WG)
-```
-Note: Please list all the Working & Sub-Working Groups inside of the Organization.
-This section should be updated each time that a new Working or Sub-Working Group is added or removed it.
-```
-* Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
-* The Organization has the following Working Groups:
-  * Specification Working Group
-  * Open Source Working Group
-
-## Organization Roles
-
-```
-Note: It is important to provide a description of what is expected from each Organization role.
-```
-* [Participants](#participants)
-* [Editors](#editors)
-* [Maintainer(s)](#maintainers)
-
-### Participants
-Note:
-> A Participant is any individual creating content or commenting on an issue or pull request.
-
-* Participants MUST read the Project documentation (e.g.: this operational document, contribution guidelines, README, and Release Planning documents) before attenting to submit an Issue or Pull Request
-* Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
-
->Note: from [Scope & Governance]() Document
-
-```
-1.3. Participants. “Participants” are those that have made Contributions to the Working Group subject to the Community Specification License.
-```
-
-### Editors
-Note:
-> An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
-
->Note: from [Scope & Governance]() Document
-
-```
-1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
-that have been made by the group, and that the specification adheres to formatting and content guidelines. 
-Each Working Group will designate an Editor or Editors for that Working Group.
-A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
-```
-
-### Maintainers
-
->Note: from [Scope & Governance]() Document
-
-```
-1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) and open source projects developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
-```
-
-* In performing their tasks, Working Group Maintainers SHALL maintain strict impartiality and act in the interest of the Organization.
-* Maintainers MAY limit the amount of time allocated to a particular agenda item or discussion point.
-* Maintainers SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
-  * a statement of the Maintainers’s view of group consensus, which shall be accepted by the group if there are no objections.
-  * assignment of action items to progress the issue in a short a time period as possible.
-  * invite single or few objectors to no longer sustain their objections.
-  * informal voting.
-  * formal voting.
-* Maintainers MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
-* The work and progress of the group is appropriately communicated through regular status reports to the SC.
-* The Maintainer MAY delegate tasks to other Maintainers, including chairing the group as and when necessary.
-* The Maintainer MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
-* The Maintainer MUST apply "Review & Approval" process to contributions submitted by the Working Group members
-* The Maintainer SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
-* The Maintainer SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
-* The Maintainer SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
 
 ## Membership Benefits
 
@@ -380,65 +270,131 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
   </tbody>
 </table>
 
-## Meetings
+### Organization Structure
 
-```
-Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.
-```
-* WGs are encouraged to schedule regular conference calls.
+** Committees and Working Groups
+
+* Technical Steering Committee
+   * Specification Working Group
+   * Open Source Working Group
+   * Marketing Committee
+
+**Special Interest groups**
+
+* AI Special Interest Group
+* Hardware Special Interest Group
+* Image Special Interest Group
+* Language Special Interest Group
+* Math Special Interest Group
+
+#### Technical Steering Committee
+
+One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
+
+* The Steering Committee is comprised of a representative of the "Steering" members of the Organization and it has a single primary member representing each company.
+* Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
+* Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
+* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
+* The Steering Committee will endeavor to make all decisions by consensus. Where the Steering Committee cannot reach consensus with respect to a particular decision, the Steering Committee will make that decision by a Supermajority Vote.
+* Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
+* The votes are taken only by the appointed representatives of the Steering Committee.
+* Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
+ 
+*Note: Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.*
+
+#### Working Groups (WG)
+
+ Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
+
+#### Marketing Committee
+
+* The Steering Committee will appoint the chairperson for the Marketing Committee
+* The Marketing Team typically focuses on the following:
+  * Managing internal and external communications.
+  * Responsible for press releases.
+  * Maintains the website.
+  * Coordinates participation at events.
+  * Manages the communication strategy.
+* The Technical Steering Committee approves any plans made by the committee
+* Marketing Committee participation is open to all members
+
+## Organization Roles
+
+* [Participants](#participants)
+* [Editors](#editors)
+* [Maintainer(s)](#maintainers)
+
+### Participants
+*Note: A Participant is any individual creating content or commenting on an issue or pull request.*
+
+* Participants MUST read the Project documentation (e.g.: this operational document, contribution guidelines, README, and Release Planning documents) before attenting to submit an Issue or Pull Request
+* Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
+
+### Editors
+*Note: An Editor is a subset of Participants who have been given write access to the repository for a specification. They will advance the day-to-day evolution of the specification*
+
+*Note: Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions that have been made by the group, and that the specification adheres to formatting and content guidelines. A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.*
+
+### Maintainers
+
+“Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) and/or open source projects developed by the Working Groups. Maintainers are also responsible for determining consensus and coordinating contributions and reviews. Each project will designate one or more Maintainer. A project may select a new or additional Maintainer(s) upon Approval of the Working Group.*
+
+* Maintainers SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
+* Maintainers MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
+* Maintainers SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
+* Maintainers SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
+
+### Working Group Chairperson
+
+* In performing their tasks, Working Group Chairpersons SHALL maintain strict impartiality and act in the interest of the Organization.
+
+* Chairperson MAY limit the amount of time allocated to a particular agenda item or discussion point.
+* Chairperson SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
+  * a statement of the Chairperson’s view of group consensus, which shall be accepted by the group if there are no objections.
+  * assignment of action items to progress the issue in a short a time period as possible.
+  * invite single or few objectors to no longer sustain their objections.
+  * informal voting.
+  * formal voting.
+* Chairperson MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
+* The work and progress of the group is appropriately communicated through regular status reports to the Steering Committee.
+* The Chairperson MAY delegate tasks to another vice-chairperson, including chairing the group as and when necessary.
+
+# Meetings and Decision Making
+
+*Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.*
+
+* Working Groups are encouraged to schedule regular conference calls.
 * The Meetings MUST be announced at least 7 days in advance for conference calls, and 1 month for face to face meetings.
-* All the Organization members are contractually bound to the IPR policy under terms of the Membership Application and these IPR Guidelines must be followed.
-* Meetings SHALL have an antitrust statement and an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
-* A meeting attendee list MUST be produced for each meeting. This is necessary to determine which members can vote in a Supermajority vote.
+* All the Organization members are contractually bound by the IPR policy under terms of the Membership Application and these IPR Guidelines must be followed.
+* Meetings SHALL have an antitrust statement and an IPR information where a reminder of the IPR policy and the duties and obligations of members is provided.
+* A meeting attendee list MUST be produced for each meeting. This is especially necessary to determine which members can vote in a Supermajority vote.
 
 ### Meeting Agenda
 
-```
-Note: An effective Meeting Agenda enable teams to organize its topics and give a fair chance for every topic to be discussed.
-```
-* Please refer to the Organization Agenda & Meeting Minutes [Template]()
+*Note: An effective Meeting Agenda enable teams to organize its topics and give a fair chance for every topic to be discussed.*
+
+* Please refer to the Organization Agenda & Meeting Minutes [Template]() (TODO)
 
 ### Meeting Minutes
 
-``` 
-Note: It is important to record the key issues discussed during the meeting, motions proposed or voted, and activities to be undertaken.
-Also, it should be recorded meeting attendance, specially if there is a voting requirement associated with members attendance.
+*Note: It is important to record the key issues discussed during the meeting, motions proposed or voted, and activities to be undertaken. Also, it should be recorded meeting attendance, specially if there is a voting requirement associated with members attendance.*
 
-It is recommended to define an Agenda & Meeting Minutes template.
-```
-* Please refer to the Organization Agenda & Meeting Minutes [Template]()
+Please refer to the Organization Agenda & Meeting Minutes [Template]() (TODO)
 
 ## Technical Decision Making
 ### Decision Making
 
-```
-Note: the following bullet points needs to be reviewed by the group: 3.1, 3.1 and 3.2 
-This is to ensure that the fact of having memberships levels doesn't contradicts these rules
-```
-
-Note: from `[Organization_Abbreviation]` Scope & Governance
-
-```
-2. Decision Making.
-2.1. Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the Maintainer will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Working Group Participants and nature of support and objections. The Maintainer will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
-
-2.2. Appeal Process. Decisions may be appealed via a pull request or an issue, and that appeal will be considered by the Maintainer in good faith, who will respond in writing within a reasonable time.
-
-3. Ways of Working.
-Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
-
-3.1. Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
-
-3.2. Lack of Dominance. The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
-
-3.3. Balance. The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
-
-3.4. Coordination and Harmonization. Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
-
-3.5. Consideration of Views and Objections. Prompt consideration shall be given to the written views and objections of all Participants.
-
-3.6. Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
-```
+* Decision Making.
+   * Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the chairperson will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Participants and nature of support and objections. The chairperson will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
+   * Appeal Process. Decisions may be appealed, and that appeal will be considered by the chairperson in good faith, who will respond in writing within a reasonable time.
+* Ways of Working.
+   * Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
+   * Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
+   * Lack of Dominance. The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
+   * Balance. The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
+   * Coordination and Harmonization. Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
+   * Consideration of Views and Objections. Prompt consideration shall be given to the written views and objections of all Participants.
+   * Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
 
 As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintainers need to ensure efficient and effective decision-making:
 * The decision making process in WGs is intended to be as inclusive as possible. 
@@ -511,6 +467,8 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
   * In-person-meetings require at least 30 days prior written notice
   * Teleconference meetings require at least 7 days prior written notice
   * Electronic voting MUST remain open for no less than 7 days.
+
+# Processes
 
 ## Approval Process
 <figure>
@@ -755,7 +713,7 @@ There are at least three different options to publish content using GitHub:
   </tbody>
 </table>
 
-## Intellectual Property Rights
+# Intellectual Property Rights
 
 ### Copyright
 This section provides a recommendation based on the best practice implemented by other projects.
