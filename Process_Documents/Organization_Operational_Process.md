@@ -1,6 +1,8 @@
-## Organization Operational Document
+=================================
+Organization Operational Document
+=================================
 
-## Terminology and Conventions
+# Terminology and Conventions
 
 ### Language
 The default language for writing documentation is American English, English (United States).
@@ -163,9 +165,7 @@ When people gather to discuss Technical Requirements they tend to use the same t
 </tbody>
 </table>
 
-## Introduction
-
-## Governance
+# Governance and Roles
 
 ### Membership Levels
 
@@ -380,7 +380,7 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
   </tbody>
 </table>
 
-## Meetings
+# Meetings and Decision Making
 
 ```
 Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.
@@ -511,6 +511,8 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
   * In-person-meetings require at least 30 days prior written notice
   * Teleconference meetings require at least 7 days prior written notice
   * Electronic voting MUST remain open for no less than 7 days.
+
+# Processes
 
 ## Approval Process
 <figure>
@@ -755,7 +757,7 @@ There are at least three different options to publish content using GitHub:
   </tbody>
 </table>
 
-## Intellectual Property Rights
+# Intellectual Property Rights
 
 ### Copyright
 This section provides a recommendation based on the best practice implemented by other projects.
