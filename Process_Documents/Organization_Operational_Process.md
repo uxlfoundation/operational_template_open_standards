@@ -840,17 +840,7 @@ BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHET
 THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 ```
 
-
-## Reference Material
-### Documents
-
-* [Dictionary]()
-* [Templates]()
-
-### Collaboration Tools
-* [Groups.io]()
 ### GitHub
-* [UXL Foundation GitHub Training Material]()
 * [Issue Creation](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
 * [Creation Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 * [Managing Project Boards](https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards)
