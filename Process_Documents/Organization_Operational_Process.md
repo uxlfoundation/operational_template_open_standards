@@ -307,7 +307,6 @@ One of the more important duties of the Technical Steering Committee (TSC) - or 
  Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
 
 #### Marketing Committee
-
 * The Steering Committee will appoint the chairperson for the Marketing Committee
 * The Marketing Team typically focuses on the following:
   * Managing internal and external communications.
@@ -388,12 +387,13 @@ Please refer to the Organization Agenda & Meeting Minutes [Template]() (TODO)
    * Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the chairperson will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Participants and nature of support and objections. The chairperson will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
    * Appeal Process. Decisions may be appealed, and that appeal will be considered by the chairperson in good faith, who will respond in writing within a reasonable time.
 * Ways of Working.
-   * Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation.
+   * Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
+   * Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
    * Lack of Dominance. The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
    * Balance. The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
    * Coordination and Harmonization. Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
    * Consideration of Views and Objections. Prompt consideration shall be given to the written views and objections of all Participants.
-   * Written procedures. This governance document and other materials documenting the development process shall be available to any interested person.
+   * Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
 
 Chairpersons need to ensure efficient and effective decision-making:
 * The decision making process is intended to be as inclusive as possible. 
@@ -465,6 +465,7 @@ Chairpersons need to ensure efficient and effective decision-making:
 # Processes
 
 ## Specification Approval Process
+
 <figure>
 	<img src="images/R_A-1.svg" alt="Review & Approval">
 	<figcaption>Review & Approval</figcaption>
