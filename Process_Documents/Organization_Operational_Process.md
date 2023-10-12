@@ -7,7 +7,7 @@
 
 [Meetings and Decision Making](#meetings-and-decision-making)
 
-[Process](process)
+[Process](#process)
 
 [Intellectual Property Rights](#intellectual-property-rights)
 
@@ -388,38 +388,32 @@ Please refer to the Organization Agenda & Meeting Minutes [Template]() (TODO)
    * Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the chairperson will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Participants and nature of support and objections. The chairperson will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
    * Appeal Process. Decisions may be appealed, and that appeal will be considered by the chairperson in good faith, who will respond in writing within a reasonable time.
 * Ways of Working.
-   * Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
-   * Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
+   * Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation.
    * Lack of Dominance. The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
    * Balance. The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
    * Coordination and Harmonization. Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
    * Consideration of Views and Objections. Prompt consideration shall be given to the written views and objections of all Participants.
-   * Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
+   * Written procedures. This governance document and other materials documenting the development process shall be available to any interested person.
 
-As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintainers need to ensure efficient and effective decision-making:
-* The decision making process in WGs is intended to be as inclusive as possible. 
-* WGs shall attempt to use consensus to make decisions. 
+Chairpersons need to ensure efficient and effective decision-making:
+* The decision making process is intended to be as inclusive as possible. 
+* Attempts to use consensus to make decisions should be taken. 
 * If consensus cannot be reached, voting mechanisms MAY be used. 
 * Formal notice SHALL be given for decision making, e.g.:
   * Inclusion of a document on an agenda, proposing a specific decision to be taken (e.g. Pull Request).
   * Inclusion of an item directly in the agenda (e.g. proposed next meeting date).
-  * Items proposed for approval via the group mailing list (e.g. agreement a document revision).
-  * Inclusion of a document for decision in an electronic Review, Comment and Approval event
+  * Items proposed for approval via the group mailing list (e.g. agreement on a document revision).
   * Inclusion of a document for decision in an e-vote (Supermajority) vote.
  
  > The above list is not exhaustive.
 
-* There SHALL be no distinction in the decision-making merit of real-time or non-real-time meetings.
-  * In real-time meetings, consensus can be determined by receiving no sustained objections to a proposal. 
-  * In non-real-time meetings, consensus SHOULD be developed using Review, Comment and Agreement periods, e.g. using [Review and Approval](#[Organization_Abbreviation]-approval-process)
 * Proposals SHALL be available for a given period. 
-
 
 ### Seeking Consensus
 * Groups shall endeavour to reach consensus on all decisions. 
 * Informal methods of reaching consensus are encouraged (e.g. a show of hands).
 * Groups SHOULD attempt to ensure contributions relating to the same subject matter are considered together before being disposed. 
-* However the Maintainer SHALL ensure that progress is not delayed by unavailable contributions or participants.
+* However the chairperson SHALL ensure that progress is not delayed by unavailable contributions or participants.
 * Agreement SHALL be sought in all forms of meeting.
 
 ### Handling objections when seeking consensus
@@ -430,19 +424,19 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 * In real-time meetings, consensus can be determined by receiving no sustained objections to a proposal.
   * Efforts to immediately resolve or record objections can be taken to attempt to achieve consensus.
 * Where attendance is sparse when viewed from normal participation levels, potentially controversial proposals SHOULD be made available to the broader membership. 
-* The Maintainer is responsible for ensuring such opportunity for participation in the decision making process. 
+* The chairperson is responsible for ensuring such opportunity for participation in the decision making process. 
 * Sparsely attended meetings SHOULD NOT be used to drive through proposals that would not have broad support.
 * Following a decision-making meeting, a summary of decisions and document dispositions SHALL be published as soon as is practical. 
   * This will be addressed if the meeting minutes are available in a timely fashion.
 * When there is insufficient time for review in a real-time meeting, non-real-time consensus approaches SHOULD be considered.  
-* In non-real time meetings consensus SHOULD be developed by using [Review and Approval](#[Organization_Abbreviation]-approval-process) periods.
+* In non-real time meetings consensus SHOULD be developed by using a suitable period.
   * Using the group mailing list
   * Using GitHub "Review and Approval" label
 * Proposals SHALL be available for a given period.
 
 ## Using Supermajority vote to achieve agreement 
 ### Phrasing of Voting Questions
-* The Maintainer ensures that questions to be voted upon SHALL be phrased in a concise and unambiguous manner. 
+* The chairperson ensures that questions to be voted upon SHALL be phrased in a concise and unambiguous manner. 
 * Questions SHOULD NOT be phrased as the “The group SHALL not do xyz”. Examples of appropriate questions are:
   * SHALL the group agree the Specification?
   * SHALL the liaison be approved?
@@ -455,7 +449,7 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 
 ### Voting on Technical Issues
 
-* Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
+* Before voting, a clear definition of the issues SHALL be provided by the chairperson.
 * Members eligible to vote, SHALL only be entitled to one vote each.
 * Each member MAY cast its vote as often as it wishes, and the last vote it casts counts.
 * Voting MAY be performed electronically.
@@ -470,7 +464,7 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 
 # Processes
 
-## Approval Process
+## Specification Approval Process
 <figure>
 	<img src="images/R_A-1.svg" alt="Review & Approval">
 	<figcaption>Review & Approval</figcaption>
@@ -491,8 +485,7 @@ The Review & Approval process implies that all the contributions need to be acce
 
 * **Comments or Objections**:
     * During the Review & Approval process members MAY raise **comments** or **objections**.
-      * **Comments** MUST be taken in consideration by the Working Group, but they MAY be dismissed if they group thinks that are not relevant.
-
+      * **Comments** MUST be taken in consideration by the Working Group, but they MAY be dismissed if they group thinks that they are not relevant.
       * **Objections** MUST be taken in consideration and they cannot be dismissed by the Working Group without being reviewed. 
       * If a contribution receives an **objection** the group MUST resolve the issue, with the person that raise the objection, before deciding the status of the contribution. If the **objection** is sustained, meaning the person doesn’t remove it, then the group will have to recur to a [vote](#voting-on-technical-issues) to resolve it.
 
@@ -525,27 +518,21 @@ The Review & Approval process implies that all the contributions need to be acce
 
 ### Technical Specifications Life Cycle
 
-Note: from `UXL Foundation` Scope & Governance
-```
-4. Specification Development Process.
-4.1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
+#### Specification Development Process
 
-4.2. Draft. Each Pre-Draft document of a Working Group must first be Approved to become a ”Draft Specification”. Once the Working Group approves a document as a Draft Specification, the Draft Specification becomes the basis for all going forward work on that specification.
+1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
+2. Draft. Each Pre-Draft document of a Working Group must first be Approved to become a ”Draft Specification”. Once the Working Group approves a document as a Draft Specification, the Draft Specification becomes the basis for all going forward work on that specification.
+3. Working Group Approval. Once a Working Group believes it has achieved the objectives for its specification as described in the Scope, it will submit it to the Steering Committee for its approval.   Any Draft Specification approved by vote of the Steering Committee becomes an “Approved Specification”.
+4. Publication and Submission. Upon the designation of a Draft Specification as an Approved Specification by the Steering Committee, the Maintainer will publish the Approved Specification in a manner agreed upon by the Steering Committee (i.e., Working Group Participant only location, publicly available location, Working Group maintained website, Working Group member website, etc.). The publication of an Approved Specification in a publicly accessible manner must include the terms under which the Approved Specification is being made available.
+5. Submissions to Standards Bodies. The Steering Committee of the UXL Foundation may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Steering Committee. Upon an affirmative vote of the Steering Committee regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Steering Committee, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Steering Committee. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
+6 Steering Committee.  The Steering Committee is responsible for (a) approval of any Draft Specification as an Approved Specification and (b) alignment among each of the Working Groups of the UXL Foundation project.  
+7.  Voting of the Steering Committee.  In any vote or Approval before the Steering Committee the affirmative vote of at least 75% of the voting members of the Steering Committee. The voting members of the Steering Committee consist of one appointee from each Steering Member.
 
-4.3. Working Group Approval. Once a Working Group believes it has achieved the objectives for its specification as described in the Scope, it will submit it to the Steering Committee for its approval.   Any Draft Specification approved by vote of the Steering Committee becomes an “Approved Specification”.
-
-4.4. Publication and Submission. Upon the designation of a Draft Specification as an Approved Specification by the Steering Committee, the Maintainer will publish the Approved Specification in a manner agreed upon by the Steering Committee (i.e., Working Group Participant only location, publicly available location, Working Group maintained website, Working Group member website, etc.). The publication of an Approved Specification in a publicly accessible manner must include the terms under which the Approved Specification is being made available.
-
-4.5. Submissions to Standards Bodies. The Steering Committee of the UXL Foundation may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Steering Committee. Upon an affirmative vote of the Steering Committee regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Steering Committee, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Steering Committee. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
-
-4.6 Steering Committee.  The Steering Committee is responsible for (a) approval of any Draft Specification as an Approved Specification and (b) alignment among each of the Working Groups of the UXL Foundation project.  
-
-4.7.  Voting of the Steering Committee.  In any vote or Approval before the Steering Committee the affirmative vote of at least 75% of the voting members of the Steering Committee. The voting members of the Steering Committee consist of one appointee from each Steering Member.
-```
 <figure>
 	<img src="images/life-cycle.svg" alt="Specifications Life Cycle">
 	<figcaption>Specifications Life Cycle</figcaption>
 </figure>
+
 
 In this section the diagram below depictures the development phases of technical documents.
 <table>
@@ -569,7 +556,7 @@ In this section the diagram below depictures the development phases of technical
       <td>A Technical Specification MAY be composed of one or more documents:
         <ul>
           <li><strong>Requirements Document</strong>, (RD)</li>
-            <ul><li>It contains the business requirements (non technical requiremnts). The business requirements are derived from the Use Cases described in the <strong>RD</strong> document.</li></ul>
+            <ul><li>It contains the business requirements (non technical requirements). The business requirements are derived from the Use Cases described in the <strong>RD</strong> document.</li></ul>
           <li><strong>Architecture Document</strong>, (AD)</li>
             <ul><li>Document that describes all functional elements of the system and its interfaces or reference points.</li></ul>
           <li><strong>Technical Specification Document(s)</strong>, (TS)</li>
@@ -730,7 +717,7 @@ These statements are intended to communicate the following:
 
 * the work is copyrighted;
 * the contributors of the code licensed it, but retain ownership of their copyrights; and
-* it was licensed for distribution as part of the `[Organization_Name]`.
+* it was licensed for distribution as part of the `[UXL Foundation]`.
 
 With any of the above statements, the project avoids having to maintain lists of names of the authors or copyright holders, years or ranges of years, and variations on the (c) symbol.
 This aims to minimize the burden on the contributors and maintainers.
@@ -795,7 +782,7 @@ Each source code created by the project SHOULD have one of these SPDX license id
 
 ```
 # SPDX-License-Identifier: MIT
-# Copyright Contributors to the [Organization_Name]
+# Copyright Contributors to the UXL Foundation
 ```
 
 If the project needs to include source code or documents from a different upstream project, the recommendation is to retain those files in **unmodified form**  _**(don't add identifiers)**_.
@@ -806,7 +793,7 @@ Also consider to:
 * ask the upstream project to insert the identifiers on their source code files / documents.
 
 ### [Organization_Name] Software License Policy
-This policy is intended to assist `[Organization_Name]` Technical Working Groups to handle Software Licenses in the Projects.
+This policy is intended to assist `UXL Foundation` Technical Working Groups to handle Software Licenses in the Projects.
 
 #### Recommended SafeGuards
 **1. Escalation Path**
@@ -820,7 +807,7 @@ This policy is intended to assist `[Organization_Name]` Technical Working Groups
 
   - It is not recommended to pull software code, under different license than the Project License, into the project repository. Use linked libraries instead.
   - If 3rd party software is embedded, it should be under the Project License. If different licenses are used, then create a NOTICE file listing all the 3rd party license notice.
-  - As a rule, if a software code developed by `[Organization_Name]` has an external dependency to a code distributed under GPL 2.0, then `[Organization_Name]` members need to consult with their legal counsel to decide under what license the `[Organization_Name]` software code should be released. In other words, if the code developed by `[Organization_Name]` doesn’t work without the reference to the external code under GPL 2.0, then the license to release the `[Organization_Name]` code should be evaluated.
+  - As a rule, if a software code developed by UXL Foundation has an external dependency to a code distributed under GPL 2.0, then UXL Foundation members need to consult with their legal counsel to decide under what license the UXL Foundation software code should be released. In other words, if the code developed by UXL Foundation doesn’t work without the reference to the external code under GPL 2.0, then the license to release the UXL Foundation code should be evaluated.
 
 **3. License Compatibility**
 
