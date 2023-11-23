@@ -1,8 +1,6 @@
 # Organization Operational Document
 
 
-[Terminology and Conventions](#terminology-and-conventions)
-
 [Governance](#governance-and-roles)
 
 [Meetings and Decision Making](#meetings-and-decision-making)
@@ -11,164 +9,7 @@
 
 [Intellectual Property Rights](#intellectual-property-rights)
 
-# Terminology and Conventions
-
-### Language
-The default language for writing documentation is American English, English (United States).
-
-### Conventions
-The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
-
-> Note: It is recommended to use the following terminology when writing Technical Specifications:
-
-**MUST**:
-This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
-	
-**SHOULD**:
-This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
-
-**MAY**:
-This word, or the adjective "OPTIONAL", mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that  it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which  does not include the option (except, of course, for the feature the  option provides.)
-
-
-### Definitions
-
-<table>
-  <caption>Definitions</caption>
-  <tbody>
-    <tr>
-	<td><strong>Committee Team</strong></td>
-	<td>A group chartered by the Steering Committee to perform specific support tasks</td>
-    </tr>
-    <tr>
-	<td><strong>Editor(s)</strong></td>
-	<td>A member of a Working Group who is responsible to edit and maintain a document.</td>
-    </tr>
-    <tr>
-	<td><strong>e-Vote</strong></td>
-	<td>Electronic Vote.</td>
-    </tr>
-    <tr>
-	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
-    </tr>
-    <tr>
-	<td><strong>Maintainer</strong></td>
-	<td>A member of the Organization that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
-  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group or those contributors who lead an open source project. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
-  A Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
-  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed by members and approved. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
-    </tr>
-    <tr>
-	<td><strong>Member(s)</strong></td>
-	<td>A person that belongs to a company that has signed the Membership Agreement, Project and Working Group Charter(s)
-  </td>
-    </tr>	  
-    <tr>
-	<td><strong>Membership Application</strong></td>
-	<td>A document that provides legal information about rights and obligations of being a member company of Organization.</td>
-    </tr>
-    <tr>
-	<td><strong>Participant</strong></td>
-	<td>A Participant is any individual creating content, code or commenting on an Issue or Pull Request.</td>
-    </tr>
-    <tr>
-	<td><strong>Project Charter</strong></td>
-	<td>A legal document that describes the Organization Project.</td>
-    </tr>
-    <tr>
-	<td><strong>Pull Request</strong></td>
-	<td>It indicates what changes are suggested to a branch in a repository on GitHub.</td>
-    </tr>
-    <tr>
-	<td><strong>Release</strong></td>
-	<td>It is the distribution of the final version of a specification or software project</td>
-    </tr>	  
-    <tr>
-	<td><strong>Review & Approval</strong></td>
-	<td>A special process that is used to convey agreement or disagrement on a topic. </td>
-    </tr>
-    <tr>
-	<td><strong>Semantic Versioning</strong></td>
-	<td>It is a versioning scheme to convey backwards or not backwards compatibility of a release.</td>
-    </tr>
-    <tr>
-	<td><strong>Source Code</strong></td>
-	<td> It is any collection of code, with or without comments, written using a human-readable programming language, usually as plain text.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Specification(s)</strong></td>
-	<td>An act of describing or identifying something precisely or of stating a precise requirement.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Steering Committee</strong></td>
-	<td>A committee that decides on the priorities or order of business of the Organization </td>
-    </tr>
-    <tr>
-	<td><strong>Supermajority Vote</strong></td>
-	<td>an affirmative vote of no less than 3/4 eligible members</td>
-    </tr>
-    <tr>
-	<td><strong>Working Group</strong></td>
-	<td>A group of experts working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
-    </tr>
-    <tr>
-	<td><strong>Working Group Charter</strong></td>
-	<td>A document that contains the scope, objectives and goals of a particular group. </td>
-    </tr>
-    <tr>
-	<td><strong>Work Package</strong></td>
-	<td>It is a group of related tasks within a project. Each Work Package can be broken down into one or more groups.</td>
-    </tr>	  
-  </tbody>
-</table>
-
-*Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.*
-
-
-### Abbreviations
-
-<table>
-<caption>Definitions</caption>
-<tbody>
-  <tr>
-    <td>AD</td>
-    <td>Architecture Document</td>
-  </tr>	
-  <tr>
-    <td>IPR</td>
-    <td>Intellectual Property Rights</td>
-  </tr>	
-  <tr>
-    <td>WG</td>
-    <td>Working Group</td>
-  </tr>
-  <tr>
-    <td>PR</td>
-    <td>Pull Request</td>
-  </tr>	
-  <tr>
-    <td>REQ</td>
-    <td>Requirements</td>
-  </tr>		
-  <tr>
-    <td>RD</td>
-    <td>Requirement Document</td>
-  </tr>	
-  <tr>
-    <td>SUP</td>
-    <td>Supporting Document</td>
-  </tr>	
-  <tr>
-    <td>TS</td>
-    <td>Technical Specification</td>
-  </tr>
-    <tr>
-    <td>TSC</td>
-    <td>Technical Steering Committee</td>
-  </tr>
-</tbody>
-</table>
+[Terminology and Conventions](#terminology-and-conventions)
 
 # Governance and Roles
 
@@ -254,7 +95,13 @@ The Organization Membership Levels are:
         <td></td>
     </tr>
     <tr>
-        <td>Vote in a Supermajority vote</td>
+        <td>Vote in a Steering Committee Supermajority vote</td>
+        <td>Yes</td>
+        <td></td>
+        <td></td>
+    </tr>
+	<tr>
+        <td>Vote in a Working Group Supermajority vote</td>
         <td>Yes</td>
         <td>Yes</td>
         <td></td>
@@ -262,7 +109,19 @@ The Organization Membership Levels are:
         <td colspan="5"><strong>Access to Meetings</strong></td>
     </tr>
     <tr>
-        <td>Attend Work Group meetings (F2F, conference calls, interim)</td>
+        <td>Attend Working Group meetings</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+	<tr>
+        <td>Attend SIG meetings</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+	<tr>
+        <td>Attend Marketing Committee meetings</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -272,14 +131,16 @@ The Organization Membership Levels are:
 
 ### Organization Structure
 
-** Committees and Working Groups
+**Committees and Working Groups**
 
-* Technical Steering Committee
+* Steering Committee
    * Specification Working Group
    * Open Source Working Group
    * Marketing Committee
 
-**Special Interest groups**
+The Steering Committee decides on the priorities or order of business for the organization. The Working Groups and Marketing Committee organise work packages and report to the Steering Committee.
+
+**Special Interest Groups**
 
 * AI Special Interest Group
 * Hardware Special Interest Group
@@ -287,35 +148,37 @@ The Organization Membership Levels are:
 * Language Special Interest Group
 * Math Special Interest Group
 
+The Special Interest Groups (SIGs) facilitate an open forum for sharing knowledge, demonstrating new work and discussing relevant technical topics.
+
 #### Technical Steering Committee
 
-One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
+One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
 * The Steering Committee is comprised of a representative of the "Steering" members of the Organization and it has a single primary member representing each company.
 * Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 * Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
 * The Steering Committee will endeavor to make all decisions by consensus. Where the Steering Committee cannot reach consensus with respect to a particular decision, the Steering Committee will make that decision by a Supermajority Vote.
 * Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
-* The votes are taken only by the appointed representatives of the Steering Committee.
+* The votes are taken only by the chairperson of the Steering Committee, unless a deputy has been appointed by the Steering Committee.
 * Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
- 
-*Note: Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.*
 
 #### Working Groups (WG)
 
  Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
 
 #### Marketing Committee
-* The Steering Committee will appoint the chairperson for the Marketing Committee
-* The Marketing Team typically focuses on the following:
+
+The Steering Committee will appoint the chairperson for the Marketing Committee
+
+The Marketing Team typically focuses on the following:
   * Managing internal and external communications.
-  * Responsible for press releases.
+  * Responsibility for press releases.
   * Maintains the website.
   * Coordinates participation at events.
   * Manages the communication strategy.
-* The Technical Steering Committee approves any plans made by the committee
-* Marketing Committee participation is open to all members
+
+The Technical Steering Committee approves any plans made by the committee as well as press release content.
+Marketing Committee participation is open to all members.
 
 ## Organization Roles
 
@@ -370,9 +233,7 @@ One of the more important duties of the Technical Steering Committee (TSC) - or 
 
 ### Meeting Agenda
 
-*Note: An effective Meeting Agenda enable teams to organize its topics and give a fair chance for every topic to be discussed.*
-
-* Please refer to the Organization Agenda & Meeting Minutes [Template]() (TODO)
+*Note: An effective Meeting Agenda enables teams to organize its topics and give a fair chance for every topic to be discussed.*
 
 ### Meeting Minutes
 
@@ -411,7 +272,7 @@ Chairpersons need to ensure efficient and effective decision-making:
 
 ### Seeking Consensus
 * Groups shall endeavour to reach consensus on all decisions. 
-* Informal methods of reaching consensus are encouraged (e.g. a show of hands).
+* Informal methods of reaching consensus are encouraged (e.g. a show of hands virtual or physical).
 * Groups SHOULD attempt to ensure contributions relating to the same subject matter are considered together before being disposed. 
 * However the chairperson SHALL ensure that progress is not delayed by unavailable contributions or participants.
 * Agreement SHALL be sought in all forms of meeting.
@@ -471,6 +332,7 @@ Chairpersons need to ensure efficient and effective decision-making:
 	<figcaption>Review & Approval</figcaption>
 </figure>
 
+
 When developing a standard the approval or rejection of a contribution follows a democratic process; **the majority**. This differs from open source projects that normally follows a meritocratic process where the Maintainer decides what to accept of reject.
 
 The goal for standards development is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote, see [Seeking Consensus](#seeking-consensus).
@@ -481,8 +343,12 @@ The Review & Approval process implies that all the contributions need to be acce
 ### Review & Approval Process
 * **Review period**:
     * Period of time during which the contribution will be under review before being merged.
-      * The period can be: 0, 1, 2, 3, 5, 7, 14 days
-      * 0 days imply that the contribution is merged without Working Group review
+      * The minimum period shall be: 
+	    * 0 days for minor changes to non-API modifications (examples include typos or small improvements to the documentation of an API)
+		* 7 days for major changes to non-API modifications (such as changes to the documentation of an API)
+		* 14 days for any changes to API definitions
+      
+0 days imply that the contribution can be merged without Working Group review
 
 * **Comments or Objections**:
     * During the Review & Approval process members MAY raise **comments** or **objections**.
@@ -494,8 +360,7 @@ The Review & Approval process implies that all the contributions need to be acce
     * A contribution is considered **approved** and therefore it can be merged if:
       * The contribution has not received any sustainable **objection** during the review period, AND
       * At least 3 reviewers have indicated that they agree with the contribution
-    * If a sustained **objection** is received, the contribution cannot be merged, even if 3 or more contributors agreed with the contribution. 
-    * If during the review period a contribution receives a **comment**, it is up to the group or maintainer to accept the comment or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
+    * If during the review period a contribution receives a **comment** or **objection**, it is up to the group or maintainer to accept it or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
 
 ## UXL Foundation Process Flows
 
@@ -513,21 +378,21 @@ The Review & Approval process implies that all the contributions need to be acce
 
 ##### Epics
 * It could be a feature, customer request or business requirement
-* It is recommendable to define a list of Epics that will be formed the release package for the corresponding Work Package
+* It is recommendable to define a list of Epics that will be part of the release package for the corresponding Work Package
 * The WG SHOULD define a placeholder for each Epic with few lines of description
 * The Epics can be broken down in user stories and tasks which are not defined in detail at the creation of the Work Package
 
-### Technical Specifications Life Cycle
+### Work Package Life Cycle
 
-#### Specification Development Process
+#### Development Process
+
+##### Specification
 
 1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
 2. Draft. Each Pre-Draft document of a Working Group must first be Approved to become a ”Draft Specification”. Once the Working Group approves a document as a Draft Specification, the Draft Specification becomes the basis for all going forward work on that specification.
 3. Working Group Approval. Once a Working Group believes it has achieved the objectives for its specification as described in the Scope, it will submit it to the Steering Committee for its approval.   Any Draft Specification approved by vote of the Steering Committee becomes an “Approved Specification”.
 4. Publication and Submission. Upon the designation of a Draft Specification as an Approved Specification by the Steering Committee, the Maintainer will publish the Approved Specification in a manner agreed upon by the Steering Committee (i.e., Working Group Participant only location, publicly available location, Working Group maintained website, Working Group member website, etc.). The publication of an Approved Specification in a publicly accessible manner must include the terms under which the Approved Specification is being made available.
 5. Submissions to Standards Bodies. The Steering Committee of the UXL Foundation may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Steering Committee. Upon an affirmative vote of the Steering Committee regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Steering Committee, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Steering Committee. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
-6 Steering Committee.  The Steering Committee is responsible for (a) approval of any Draft Specification as an Approved Specification and (b) alignment among each of the Working Groups of the UXL Foundation project.  
-7.  Voting of the Steering Committee.  In any vote or Approval before the Steering Committee the affirmative vote of at least 75% of the voting members of the Steering Committee. The voting members of the Steering Committee consist of one appointee from each Steering Member.
 
 <figure>
 	<img src="images/life-cycle.svg" alt="Specifications Life Cycle">
@@ -600,13 +465,23 @@ In this section the diagram below depictures the development phases of technical
 	<figcaption>UXL Foundation Technical Specifications Development Phases</figcaption>
 </figure>
 
+##### Open Source Projects
+
+<figure>
+	<img src="images/life-cycle.svg" alt="Open Source Life Cycle">
+	<figcaption>Open Source Life Cycle</figcaption>
+</figure>
+
+#### Best Practices for Specifications and Open Source
+
 ### GitHub Flows
-It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible. 
+It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible to avoid divergence and forking of the projects. 
 
 <figure>
 	<img src="images/Git-Flow-2.svg" alt="UXL Foundation Git Flow">
-	<figcaption>UXL Foundation GitHub Flow</figcaption>
+	<figcaption>UXL Foundation GitHub Workflow</figcaption>
 </figure>
+
 
 <table>
   <caption>GitHub Work Flow - Public Repositories</caption>
@@ -846,4 +721,150 @@ THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 * [Creation Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 * [Managing Project Boards](https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards)
 
+# Terminology and Conventions
 
+### Language
+The default language for writing documentation is American English, English (United States).
+
+### Conventions
+The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
+
+> Note: It is recommended to use the following terminology when writing Technical Specifications:
+
+**MUST**:
+This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
+	
+**SHOULD**:
+This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
+
+**MAY**:
+This word, or the adjective "OPTIONAL", mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that  it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which  does not include the option (except, of course, for the feature the  option provides.)
+
+
+### Definitions
+
+<table>
+  <caption>Definitions</caption>
+  <tbody>
+    <tr>
+	<td><strong>Committee Team</strong></td>
+	<td>A group chartered by the Steering Committee to perform specific support tasks</td>
+    </tr>
+    <tr>
+	<td><strong>Editor(s)</strong></td>
+	<td>A member of a Working Group who is responsible to edit and maintain a document.</td>
+    </tr>
+    <tr>
+	<td><strong>e-Vote</strong></td>
+	<td>Electronic Vote.</td>
+    </tr>
+    <tr>
+	<td><strong>Issue(s)</strong></td>
+	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
+    </tr>
+    <tr>
+	<td><strong>Maintainer</strong></td>
+	<td>A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group or those contributors who lead an open source project. They are committed to improving, driving, and ensuring an outcome and are the final control point for contributions.</br>
+    </tr>
+    <tr>
+	<td><strong>Member(s)</strong></td>
+	<td>A person that belongs to a company that has signed the Membership Agreement, Project and Working Group Charter(s)
+  </td>
+    </tr>	  
+    <tr>
+	<td><strong>Membership Application</strong></td>
+	<td>A document that provides legal information about rights and obligations of being a member company of Organization.</td>
+    </tr>
+    <tr>
+	<td><strong>Participant</strong></td>
+	<td>A Participant is any individual creating content, code or commenting on an Issue or Pull Request.</td>
+    </tr>
+    <tr>
+	<td><strong>Project Charter</strong></td>
+	<td>A legal document that describes the Organization Project.</td>
+    </tr>
+    <tr>
+	<td><strong>Pull Request</strong></td>
+	<td>It indicates what changes are suggested to a branch in a repository on GitHub.</td>
+    </tr>
+    <tr>
+	<td><strong>Release</strong></td>
+	<td>It is the distribution of the final version of a specification or software project</td>
+    </tr>	  
+    <tr>
+	<td><strong>Review & Approval</strong></td>
+	<td>A special process that is used to convey agreement or disagrement on a topic. </td>
+    </tr>
+    <tr>
+	<td><strong>Semantic Versioning</strong></td>
+	<td>It is a versioning scheme to convey backwards or not backwards compatibility of a release.</td>
+    </tr>
+    <tr>
+	<td><strong>Steering Committee</strong></td>
+	<td>A committee that decides on the priorities or order of business of the Organization </td>
+    </tr>
+    <tr>
+	<td><strong>Supermajority Vote</strong></td>
+	<td>An affirmative vote of no less than 3/4 eligible members</td>
+    </tr>
+    <tr>
+	<td><strong>Working Group</strong></td>
+	<td>A group of experts working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
+    </tr>
+    <tr>
+	<td><strong>Working Group Charter</strong></td>
+	<td>A document that contains the scope, objectives and goals of a particular group. </td>
+    </tr>
+    <tr>
+	<td><strong>Work Package</strong></td>
+	<td>It is a group of related tasks within a project. Each Work Package can be broken down into one or more groups.</td>
+    </tr>	  
+  </tbody>
+</table>
+
+*Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.*
+
+
+### Abbreviations
+
+<table>
+<caption>Definitions</caption>
+<tbody>
+  <tr>
+    <td>AD</td>
+    <td>Architecture Document</td>
+  </tr>	
+  <tr>
+    <td>IPR</td>
+    <td>Intellectual Property Rights</td>
+  </tr>	
+  <tr>
+    <td>WG</td>
+    <td>Working Group</td>
+  </tr>
+  <tr>
+    <td>PR</td>
+    <td>Pull Request</td>
+  </tr>	
+  <tr>
+    <td>REQ</td>
+    <td>Requirements</td>
+  </tr>		
+  <tr>
+    <td>RD</td>
+    <td>Requirement Document</td>
+  </tr>	
+  <tr>
+    <td>SUP</td>
+    <td>Supporting Document</td>
+  </tr>	
+  <tr>
+    <td>TS</td>
+    <td>Technical Specification</td>
+  </tr>
+    <tr>
+    <td>TSC</td>
+    <td>Technical Steering Committee</td>
+  </tr>
+</tbody>
+</table>
