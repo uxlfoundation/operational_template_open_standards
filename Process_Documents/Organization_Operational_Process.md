@@ -225,6 +225,8 @@ Marketing Committee participation is open to all members.
 * The work and progress of the group is appropriately communicated through regular status reports to the Steering Committee.
 * The Chairperson MAY delegate tasks to another vice-chairperson, including chairing the group as and when necessary.
 
+The checklist for Working Group chairs outlining the general roles and responsibilities is available in this [Appendix](/Process_Documents/Appendix_A.md)
+
 ## Elections
 
 The chairperson roles for the Steering Committee, Specification Working Group, Open Source Working Group and Marketing Committee are intended to be appointed to individuals through an annual democratic election. The Steering Committee will determine the election process.
