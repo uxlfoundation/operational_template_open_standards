@@ -21,6 +21,9 @@ The Organization Membership Levels are:
 * General
 * Contributor
 
+Steering and General memberships also require the organization to be a Linux Foundation member.
+Contributor members *do not* also need to be a Linux Foundation member.
+
 ## Membership Benefits
 
 <table>
@@ -134,13 +137,14 @@ The Organization Membership Levels are:
 **Committees and Working Groups**
 
 * Steering Committee
-   * Specification Working Group
-   * Open Source Working Group
-   * Marketing Committee
+
+* Specification Working Group
+* Open Source Working Group
+* Marketing Committee
 
 The Steering Committee decides on the priorities or order of business for the organization. The Working Groups and Marketing Committee organise work packages and report to the Steering Committee.
 
-**Special Interest Groups**
+**Special Interest Groups (SIGs)**
 
 * AI Special Interest Group
 * Hardware Special Interest Group
@@ -149,6 +153,10 @@ The Steering Committee decides on the priorities or order of business for the or
 * Math Special Interest Group
 
 The Special Interest Groups (SIGs) facilitate an open forum for sharing knowledge, demonstrating new work and discussing relevant technical topics.
+
+The "rules of the road" for SIG meetings are as follows:
+* No confidential or trade secrets should be shared
+* Discussions should be high level and should avoid implementation details, these discussions and work belong in the Working Groups
 
 #### Technical Steering Committee
 
@@ -164,13 +172,13 @@ One of the more important duties of the Steering Committee is the approval of th
 
 #### Working Groups (WG)
 
- Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
+Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
 
 #### Marketing Committee
 
 The Steering Committee will appoint the chairperson for the Marketing Committee
 
-The Marketing Team typically focuses on the following:
+The group typically focuses on the following:
   * Managing internal and external communications.
   * Responsibility for press releases.
   * Maintains the website.
@@ -181,10 +189,6 @@ The Technical Steering Committee approves any plans made by the committee as wel
 Marketing Committee participation is open to all members.
 
 ## Organization Roles
-
-* [Participants](#participants)
-* [Editors](#editors)
-* [Maintainer(s)](#maintainers)
 
 ### Participants
 *Note: A Participant is any individual creating content or commenting on an issue or pull request.*
@@ -199,12 +203,12 @@ Marketing Committee participation is open to all members.
 
 ### Maintainers
 
-“Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) and/or open source projects developed by the Working Groups. Maintainers are also responsible for determining consensus and coordinating contributions and reviews. Each project will designate one or more Maintainer. A project may select a new or additional Maintainer(s) upon Approval of the Working Group.*
+“Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) and/or open source projects developed by the Working Groups. Maintainers are also responsible for determining consensus and coordinating contributions and reviews. Each project will designate one or more Maintainer. A project may select a new or additional Maintainer(s) upon Approval of the Working Group.
 
 * Maintainers SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
 * Maintainers MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
 * Maintainers SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
-* Maintainers SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
+* Maintainers SHOULD close contributions that do not follow the rules, or meet the right quality or do not fall within the agreed scope of the project
 
 ### Working Group Chairperson
 
@@ -220,6 +224,10 @@ Marketing Committee participation is open to all members.
 * Chairperson MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
 * The work and progress of the group is appropriately communicated through regular status reports to the Steering Committee.
 * The Chairperson MAY delegate tasks to another vice-chairperson, including chairing the group as and when necessary.
+
+## Elections
+
+The chairperson roles for the Steering Committee, Specification Working Group, Open Source Working Group and Marketing Committee are intended to be appointed to individuals through an annual democratic election. The Steering Committee will determine the election process.
 
 # Meetings and Decision Making
 
@@ -239,22 +247,30 @@ Marketing Committee participation is open to all members.
 
 *Note: It is important to record the key issues discussed during the meeting, motions proposed or voted, and activities to be undertaken. Also, it should be recorded meeting attendance, specially if there is a voting requirement associated with members attendance.*
 
-Please refer to the Organization Agenda & Meeting Minutes [Template]() (TODO)
+Please refer to the Organization Agenda & Meeting Minutes [Template](/Process_Documents/Organization_Agenda_Meeting_Minutes_Template.md)
 
 ## Technical Decision Making
 ### Decision Making
 
-* Decision Making.
-   * Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the chairperson will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Participants and nature of support and objections. The chairperson will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
-   * Appeal Process. Decisions may be appealed, and that appeal will be considered by the chairperson in good faith, who will respond in writing within a reasonable time.
-* Ways of Working.
-   * Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
-   * Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
-   * Lack of Dominance. The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
-   * Balance. The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
-   * Coordination and Harmonization. Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
-   * Consideration of Views and Objections. Prompt consideration shall be given to the written views and objections of all Participants.
-   * Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
+#### Decision Making - Consensus-Based Decision Making
+
+Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the chairperson will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Participants and nature of support and objections. The chairperson will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
+
+Appeal Process - Decisions may be appealed, and that appeal will be considered by the chairperson in good faith, who will respond in writing within a reasonable time.
+
+Ways of Working - Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
+
+Openness - Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
+
+Lack of Dominance - The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
+
+Balance - The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
+
+Coordination and Harmonization - Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
+
+Consideration of Views and Objections - Prompt consideration shall be given to the written views and objections of all Participants.
+   
+Written procedures - This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
 
 Chairpersons need to ensure efficient and effective decision-making:
 * The decision making process is intended to be as inclusive as possible. 
@@ -333,7 +349,7 @@ Chairpersons need to ensure efficient and effective decision-making:
 </figure>
 
 
-When developing a standard the approval or rejection of a contribution follows a democratic process; **the majority**. This differs from open source projects that normally follows a meritocratic process where the Maintainer decides what to accept of reject.
+When developing a standard the approval or rejection of a contribution follows a democratic process; **the majority**.
 
 The goal for standards development is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote, see [Seeking Consensus](#seeking-consensus).
 
@@ -344,11 +360,13 @@ The Review & Approval process implies that all the contributions need to be acce
 * **Review period**:
     * Period of time during which the contribution will be under review before being merged.
       * The minimum period shall be: 
-	    * 0 days for minor changes to non-API modifications (examples include typos or small improvements to the documentation of an API)
+	    * 0 days for minor, editorial changes (examples include typos or small improvements to the documentation of an API)
 		* 7 days for major changes to non-API modifications (such as changes to the documentation of an API)
-		* 14 days for any changes to API definitions
-      
+		* 14 days for any changes to API definitions and new major features
+     
 0 days imply that the contribution can be merged without Working Group review
+
+Working Groups can decide in their own CONTRIBUTION guidelines what a minor or major change means.
 
 * **Comments or Objections**:
     * During the Review & Approval process members MAY raise **comments** or **objections**.
@@ -382,15 +400,11 @@ The Review & Approval process implies that all the contributions need to be acce
 * The WG SHOULD define a placeholder for each Epic with few lines of description
 * The Epics can be broken down in user stories and tasks which are not defined in detail at the creation of the Work Package
 
-### Work Package Life Cycle
-
-#### Development Process
-
-##### Specification
+### Specification Development Process
 
 1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
 2. Draft. Each Pre-Draft document of a Working Group must first be Approved to become a ”Draft Specification”. Once the Working Group approves a document as a Draft Specification, the Draft Specification becomes the basis for all going forward work on that specification.
-3. Working Group Approval. Once a Working Group believes it has achieved the objectives for its specification as described in the Scope, it will submit it to the Steering Committee for its approval.   Any Draft Specification approved by vote of the Steering Committee becomes an “Approved Specification”.
+3. Working Group Approval. Once a Working Group believes it has achieved the objectives for its specification as described in the Scope, it will submit it to the Steering Committee for its approval. Any Draft Specification approved by vote of the Steering Committee becomes an “Approved Specification”.
 4. Publication and Submission. Upon the designation of a Draft Specification as an Approved Specification by the Steering Committee, the Maintainer will publish the Approved Specification in a manner agreed upon by the Steering Committee (i.e., Working Group Participant only location, publicly available location, Working Group maintained website, Working Group member website, etc.). The publication of an Approved Specification in a publicly accessible manner must include the terms under which the Approved Specification is being made available.
 5. Submissions to Standards Bodies. The Steering Committee of the UXL Foundation may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Steering Committee. Upon an affirmative vote of the Steering Committee regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Steering Committee, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Steering Committee. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
 
@@ -461,18 +475,11 @@ In this section the diagram below depictures the development phases of technical
 </table>
 
 <figure>
-	<img src="images/dev-process.svg" alt="UXL Foundation Technical Specifications Development Phases">
+	<img src="images/spec-dev-process.svg" alt="UXL Foundation Technical Specifications Development Phases">
 	<figcaption>UXL Foundation Technical Specifications Development Phases</figcaption>
 </figure>
 
-##### Open Source Projects
-
-<figure>
-	<img src="images/life-cycle.svg" alt="Open Source Life Cycle">
-	<figcaption>Open Source Life Cycle</figcaption>
-</figure>
-
-#### Best Practices for Specifications and Open Source
+#### Best Practices for Specifications and Open Source Projects
 
 ### GitHub Flows
 It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible to avoid divergence and forking of the projects. 
@@ -528,13 +535,6 @@ It is suggested to follow the principles of [Trunk Based Development](https://tr
   </tbody>
 </table>
 
-## Publication
-There are at least three different options to publish content using GitHub:
-<figure>
-	<img src="images/publication-2.svg" alt="Publication">
-	<figcaption>Publication</figcaption>
-</figure>
-
 ## Documentation
 ### Semantic Versioning
 
@@ -579,44 +579,23 @@ There are at least three different options to publish content using GitHub:
 # Intellectual Property Rights
 
 ### Copyright
-This section provides a recommendation based on the best practice implemented by other projects.
+The foundation does not require that every contributor include their copyright notice in contributed files.
 
-Most LF project communities do not require or recommend that every contributor include their copyright notice in contributed files.
+Instead, a more general statement can be used:
 
-Instead, many LF Project communities recommend using a more general statement in a form similar to the following: (choose one)
-
-* `Copyright The UXL Foundation Authors.`
-* `Copyright The UXL Foundation Contributors.`
 * `Copyright Contributors to the UXL Foundation project.`
 
-These statements are intended to communicate the following:
+This statement is intended to communicate the following:
 
 * the work is copyrighted;
 * the contributors of the code licensed it, but retain ownership of their copyrights; and
 * it was licensed for distribution as part of the `[UXL Foundation]`.
-
-With any of the above statements, the project avoids having to maintain lists of names of the authors or copyright holders, years or ranges of years, and variations on the (c) symbol.
-This aims to minimize the burden on the contributors and maintainers.
-
-This section provides a recommended format for easy of use, but it is not mandated.
-
->Note: You may consider to discuss with your legal department about whether they require you to include a copyright notice identifying the employer as the copyright holder in contributions. Many of LF members' legal departments have already approved the above 
-recommended pratice.
-
-#### Reasons to Avoid Listing Copyright Holders
-These are some of the reasons why `UXL Foundation` does not recommend trying to list every copyright holder for contributions to every file:
-
-* Copyright notices are not mandatory in order for the contributor to retain ownership of their copyright.
-* Copyright notices are rarely kept up to date as documentation evolves, resulting inaccurate statements.
-* Trying to keep notices up to date, or to correct notices that have become inaccurate, increases the burden on editors and maintainers without tangible benefit.
-* Editors and maintainers often do not want to have to worry about e.g. whether a minor contribution (such as a type fix) means that a new copyright notice should be added.
 
 #### Other Copyright Rules
 * If your contribution contains content from a third party source who didn't contribute it themselves, then you should not add the notice above. 
 * You should not change or remove someone else's copyright notice unless they have expressly (in writting) permitted you to do so.
 
 ### Licenses
-This section provides a recommendation on how to communicate software or document licenses information in a project.
 
 #### Software Code Licenses
 
@@ -645,19 +624,17 @@ In addition, it is recommended to include a plain text statement of the license 
 #### License File in the Repository
 Insert in the repository a file called ```License.txt```. 
 
-The Maintainer can copy the corresponding license file from the [templates/license]() repository and upload it to the project repository.
-
+The Maintainer can copy the corresponding license file and upload it to the project repository.
 
 #### License Reference in each Source Code File
 The recommendation is that projects SHOULD use [SPDX short-form license identifiers](https://spdx.dev/ids/) in all source code and documentation files that are **original to the project**.
 
-
 Each source code created by the project SHOULD have one of these SPDX license identifiers: (depending on the type of source code license allocated to the project)
 
-* **for an MIT license:**
+* **for Apache 2.0 license:**
 
 ```
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Apache-2.0
 # Copyright Contributors to the UXL Foundation
 ```
 
@@ -718,7 +695,7 @@ THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 
 ### GitHub
 * [Issue Creation](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
-* [Creation Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+* [Creating Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 * [Managing Project Boards](https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards)
 
 # Terminology and Conventions
@@ -821,9 +798,6 @@ This word, or the adjective "OPTIONAL", mean that an item is truly optional.  On
     </tr>	  
   </tbody>
 </table>
-
-*Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.*
-
 
 ### Abbreviations
 
