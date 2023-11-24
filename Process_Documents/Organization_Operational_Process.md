@@ -611,13 +611,13 @@ Ideally, the project SHOULD communicate the software license information via thr
 Insert in the README file the Apache 2.0 License:
 
 ```
-![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ```
 
 The README file will display:
 
-* ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
+* ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 In addition, it is recommended to include a plain text statement of the license in the README file, for accessibility purposes as well as enabling parsing by automated tooling. This can be done by including a "License" section with:
 
