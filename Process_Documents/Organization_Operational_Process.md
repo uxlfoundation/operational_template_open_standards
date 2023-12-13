@@ -647,6 +647,7 @@ Each source code created by the project SHOULD have one of these SPDX license id
 
 ```
 # SPDX-License-Identifier: Apache-2.0
+
 # Copyright Contributors to the UXL Foundation
 ```
 
