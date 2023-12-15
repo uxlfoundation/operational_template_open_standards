@@ -5,7 +5,7 @@
 
 [Meetings and Decision Making](#meetings-and-decision-making)
 
-[Process](#process)
+[Processes](#processes)
 
 [Intellectual Property Rights](#intellectual-property-rights)
 
@@ -587,6 +587,40 @@ It is suggested to follow the principles of [Trunk Based Development](https://tr
   </tr>
   </tbody>
 </table>
+
+## Proposing a new SIG or Working Group
+
+As opportunities to collaborate on new areas, or to focus on specific subject matter are identified new groups may be set up within the foundation.
+
+Any member of the UXL Foundation can propose a new Special Interest Group or Working Group.
+The member should create an [issue on the UXL Foundation repository](https://github.com/uxlfoundation/foundation/issues) with the following information.
+* Proposed group name
+* Proposed group leader(s)
+* Outline of the purpose of the group and benefit to the foundation
+* Outline of the planned output of the group
+* Names of other members who support the proposal
+
+<figure>
+	<img src="images/new-group-proposal.svg" alt="Propose a new group">
+	<figcaption>Propose a new group</figcaption>
+</figure>
+
+## Proposing a new project or specification
+
+As opportunities to bring in new projects or specifications to the foundation arise, the following will be used to guide the discussion and approval for adding a new project or specification to the foundation.
+
+Any member of the UXL Foundation can propose adding a new project or specification to the foundation.
+The member should create an [issue on the UXL Foundation repository](https://github.com/uxlfoundation/foundation/issues) with the following information.
+* Proposed project or specification name
+* Proposed maintainers for the project or specification
+* Outline of the purpose of the project or specification and benefit to the foundation
+* Information about the project or sp
+* Names of other members who support the proposal
+
+<figure>
+	<img src="images/new-project-standard-proposal.svg" alt="Propose a new project or standard">
+	<figcaption>Propose a new project or standard</figcaption>
+</figure>
 
 # Intellectual Property Rights
 
