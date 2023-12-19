@@ -627,9 +627,9 @@ The member should create an [issue on the UXL Foundation repository](https://git
 ### Copyright
 The foundation does not require that every contributor include their copyright notice in contributed files.
 
-Instead, a more general statement can be used:
+Instead, a more general statement can be used, where <project name> is the specific name of that being contributed to e.g. oneDNN:
 
-* `Copyright Contributors to the UXL Foundation project.`
+* `Copyright Contributors to the <project name>.`
 
 This statement is intended to communicate the following:
 
