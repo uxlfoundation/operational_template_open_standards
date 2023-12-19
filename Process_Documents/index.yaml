@@ -1,0 +1,14 @@
+---
+title: "Operational Template for Open Standards"
+status: "Draft"
+version: "0.0"
+organisationName: "Joint Development Foundation"
+date: "2022-10-26"
+copyrightDate: "2022"
+logo: "images/jdf-horizontal-color.svg"
+documentName: "Operational_Template_Open_Standards"
+files:
+  - Overview.md
+  - Organization_Operational_Process.md
+  - Appendix_A.md
+---
