@@ -629,13 +629,12 @@ The foundation does not require that every contributor include their copyright n
 
 Instead, a more general statement can be used, where <project name> is the specific name of that being contributed to e.g. oneDNN:
 
-* `Copyright Contributors to the <project name>.`
+* `Copyright Contributors to the <project name> project.`
 
 This statement is intended to communicate the following:
 
 * the work is copyrighted;
 * the contributors of the code licensed it, but retain ownership of their copyrights; and
-* it was licensed for distribution as part of the `[UXL Foundation]`.
 
 #### Other Copyright Rules
 * If your contribution contains content from a third party source who didn't contribute it themselves, then you should not add the notice above. 
